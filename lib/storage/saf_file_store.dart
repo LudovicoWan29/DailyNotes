@@ -5,7 +5,7 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:daily_you/storage/file_store.dart';
+import 'package:daily_notes/storage/file_store.dart';
 import 'package:logging/logging.dart';
 import 'package:saf_transfer/saf_transfer.dart';
 import 'package:saf_util/saf_util.dart';

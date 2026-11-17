@@ -4,9 +4,9 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/year_month_range.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/year_month_range.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:intl/intl.dart';
 

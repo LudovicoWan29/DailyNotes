@@ -4,14 +4,14 @@
 
 import 'dart:io';
 
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
-import 'package:daily_you/utils/zip_utils.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
+import 'package:daily_notes/utils/zip_utils.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';

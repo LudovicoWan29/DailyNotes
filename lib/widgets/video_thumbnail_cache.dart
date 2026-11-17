@@ -5,9 +5,9 @@
 import 'dart:async';
 import 'dart:typed_data';
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/file_bytes_cache.dart';
-import 'package:daily_you/models/attachment.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/file_bytes_cache.dart';
+import 'package:daily_notes/models/attachment.dart';
 import 'package:fc_native_video_thumbnail/fc_native_video_thumbnail.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:logging/logging.dart';

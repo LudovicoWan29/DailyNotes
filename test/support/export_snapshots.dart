@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/models/tag_icon_type.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/models/tag_icon_type.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
 
 final exportedAtForTests = DateTime(2026, 4, 1, 12);
 

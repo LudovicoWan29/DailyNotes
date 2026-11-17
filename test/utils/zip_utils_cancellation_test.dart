@@ -4,8 +4,8 @@
 
 import 'dart:io';
 
-import 'package:daily_you/utils/cancellation_token.dart';
-import 'package:daily_you/utils/zip_utils.dart';
+import 'package:daily_notes/utils/cancellation_token.dart';
+import 'package:daily_notes/utils/zip_utils.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart';
 

@@ -3,8 +3,8 @@
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
 import 'dart:io';
-import 'package:daily_you/launch_intent.dart';
-import 'package:daily_you/storage/secret_store.dart';
+import 'package:daily_notes/launch_intent.dart';
+import 'package:daily_notes/storage/secret_store.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:package_info_plus/package_info_plus.dart';

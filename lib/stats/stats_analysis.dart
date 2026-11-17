@@ -4,12 +4,12 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/stats/stats_range.dart';
-import 'package:daily_you/utils/chart_axis.dart';
-import 'package:daily_you/utils/word_counter.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/stats/stats_range.dart';
+import 'package:daily_notes/utils/chart_axis.dart';
+import 'package:daily_notes/utils/word_counter.dart';
 
 const int sparklineBucketCount = 24;
 const int frequencyBucketCount = 14;

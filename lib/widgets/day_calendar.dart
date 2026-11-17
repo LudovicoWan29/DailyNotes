@@ -4,12 +4,12 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/stats/stats_analysis.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/day_grid_layout.dart';
-import 'package:daily_you/widgets/animated_values.dart';
-import 'package:daily_you/widgets/no_data_overlay.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/stats/stats_analysis.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/day_grid_layout.dart';
+import 'package:daily_notes/widgets/animated_values.dart';
+import 'package:daily_notes/widgets/no_data_overlay.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

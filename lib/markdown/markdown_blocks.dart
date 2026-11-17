@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/markdown/block_nodes.dart';
-import 'package:daily_you/markdown/markdown_parser.dart';
+import 'package:daily_notes/markdown/block_nodes.dart';
+import 'package:daily_notes/markdown/markdown_parser.dart';
 import 'package:markdown/markdown.dart' as m;
 import 'package:markdown_widget/markdown_widget.dart';
 import 'package:material_ui/material_ui.dart';

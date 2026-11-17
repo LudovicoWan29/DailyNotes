@@ -2,18 +2,18 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/layouts/fast_page_view_scroll_physics.dart';
-import 'package:daily_you/layouts/window_size_class.dart';
-import 'package:daily_you/providers/gallery_selection.dart';
-import 'package:daily_you/widgets/gallery_selection_bar.dart';
+import 'package:daily_notes/layouts/fast_page_view_scroll_physics.dart';
+import 'package:daily_notes/layouts/window_size_class.dart';
+import 'package:daily_notes/providers/gallery_selection.dart';
+import 'package:daily_notes/widgets/gallery_selection_bar.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/rendering.dart' show ScrollCacheExtent;
 import 'package:flutter/scheduler.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/pages/statistics_page.dart';
-import 'package:daily_you/pages/gallery_page.dart';
-import 'package:daily_you/pages/home_page.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/pages/statistics_page.dart';
+import 'package:daily_notes/pages/gallery_page.dart';
+import 'package:daily_notes/pages/home_page.dart';
 import 'package:provider/provider.dart';
 
 import '../pages/settings_page.dart';

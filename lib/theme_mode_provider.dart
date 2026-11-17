@@ -5,7 +5,7 @@
 import 'dart:async';
 
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/config_provider.dart';
+import 'package:daily_notes/config_provider.dart';
 import 'package:system_theme/system_theme.dart';
 
 class ThemeModeProvider with ChangeNotifier {

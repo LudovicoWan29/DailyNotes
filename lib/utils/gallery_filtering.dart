@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/entry_sort.dart';
-import 'package:daily_you/models/gallery_filter.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/utils/gallery_date_range.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/entry_sort.dart';
+import 'package:daily_notes/models/gallery_filter.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/utils/gallery_date_range.dart';
 
 typedef EntryTagsLookup = List<EntryTag> Function(int entryId);
 typedef EntryAttachmentTypesLookup = Set<AttachmentType> Function(int entryId);

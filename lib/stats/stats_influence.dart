@@ -4,9 +4,9 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/tag.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/tag.dart';
 
 const int maximumInfluences = 10;
 const int minimumSamplesPerInfluenceSide = 8;

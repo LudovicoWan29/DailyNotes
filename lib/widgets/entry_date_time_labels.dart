@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/time_manager.dart';
+import 'package:daily_notes/time_manager.dart';
 import 'package:material_ui/material_ui.dart';
 
 class EntryDateTimeLabels extends StatelessWidget {

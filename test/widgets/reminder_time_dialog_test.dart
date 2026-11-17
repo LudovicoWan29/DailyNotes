@@ -4,9 +4,9 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/custom_locale_delegates.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/widgets/reminder_time_dialog.dart';
+import 'package:daily_notes/custom_locale_delegates.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/widgets/reminder_time_dialog.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 

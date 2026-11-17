@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/widgets/animated_values.dart';
+import 'package:daily_notes/widgets/animated_values.dart';
 import 'package:material_ui/material_ui.dart';
 
 class FrequencyBars extends StatelessWidget {

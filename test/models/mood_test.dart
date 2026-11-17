@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations_en.dart';
-import 'package:daily_you/models/mood.dart';
+import 'package:daily_notes/l10n/generated/app_localizations_en.dart';
+import 'package:daily_notes/models/mood.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

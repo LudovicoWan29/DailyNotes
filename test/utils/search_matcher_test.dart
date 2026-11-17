@@ -4,8 +4,8 @@
 
 import 'dart:ui';
 
-import 'package:daily_you/utils/search_matcher.dart';
-import 'package:daily_you/utils/text_folding.dart';
+import 'package:daily_notes/utils/search_matcher.dart';
+import 'package:daily_notes/utils/text_folding.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

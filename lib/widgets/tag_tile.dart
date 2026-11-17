@@ -2,16 +2,16 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/stats/stats_analysis.dart';
-import 'package:daily_you/utils/count_format.dart';
-import 'package:daily_you/utils/tag_visuals.dart';
-import 'package:daily_you/widgets/frequency_bars.dart';
-import 'package:daily_you/widgets/sparkline.dart';
-import 'package:daily_you/widgets/stat_tile.dart';
-import 'package:daily_you/widgets/tag_icon_glyph.dart';
-import 'package:daily_you/widgets/trend_chip.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/stats/stats_analysis.dart';
+import 'package:daily_notes/utils/count_format.dart';
+import 'package:daily_notes/utils/tag_visuals.dart';
+import 'package:daily_notes/widgets/frequency_bars.dart';
+import 'package:daily_notes/widgets/sparkline.dart';
+import 'package:daily_notes/widgets/stat_tile.dart';
+import 'package:daily_notes/widgets/tag_icon_glyph.dart';
+import 'package:daily_notes/widgets/trend_chip.dart';
 import 'package:material_ui/material_ui.dart';
 
 const List<double> _previewFrequencies = [

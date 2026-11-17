@@ -5,9 +5,9 @@
 import 'dart:math' as math;
 import 'dart:ui' as ui;
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/layouts/fast_page_view_scroll_physics.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/layouts/fast_page_view_scroll_physics.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:material_ui/material_ui.dart';

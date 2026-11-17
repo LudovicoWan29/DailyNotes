@@ -4,8 +4,8 @@
 
 import 'dart:math';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/widgets/attachment_tile_background.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/widgets/attachment_tile_background.dart';
 import 'package:material_ui/material_ui.dart';
 
 class AttachmentGrid extends StatelessWidget {

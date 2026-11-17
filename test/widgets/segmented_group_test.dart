@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';

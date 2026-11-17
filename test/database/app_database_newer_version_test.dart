@@ -4,7 +4,7 @@
 
 import 'dart:io';
 
-import 'package:daily_you/database/app_database.dart';
+import 'package:daily_notes/database/app_database.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' show join;

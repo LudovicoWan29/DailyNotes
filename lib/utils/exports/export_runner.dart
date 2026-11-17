@@ -4,17 +4,17 @@
 
 import 'dart:io';
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/storage/local_file_store.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/exports/export_attachment_picker.dart';
-import 'package:daily_you/utils/exports/export_registry.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
-import 'package:daily_you/utils/zip_utils.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/storage/local_file_store.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/exports/export_attachment_picker.dart';
+import 'package:daily_notes/utils/exports/export_registry.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
+import 'package:daily_notes/utils/zip_utils.dart';
 import 'package:flutter/widgets.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';

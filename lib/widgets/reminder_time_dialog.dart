@@ -4,9 +4,9 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
 import 'package:flutter/foundation.dart' show listEquals;
 import 'package:intl/intl.dart' show DateFormat;
 import 'package:material_ui/material_ui.dart';

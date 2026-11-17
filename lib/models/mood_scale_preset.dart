@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/tag_icon_type.dart';
-import 'package:daily_you/utils/generated/tag_icon_registry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/tag_icon_type.dart';
+import 'package:daily_notes/utils/generated/tag_icon_registry.dart';
 import 'package:material_ui/material_ui.dart';
 
 enum MoodScalePreset {

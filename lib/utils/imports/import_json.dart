@@ -5,16 +5,16 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/models/tag_icon_type.dart';
-import 'package:daily_you/utils/exports/export_json.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
-import 'package:daily_you/utils/tag_name_sanitizer.dart';
-import 'package:daily_you/utils/zip_utils.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/models/tag_icon_type.dart';
+import 'package:daily_notes/utils/exports/export_json.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/tag_name_sanitizer.dart';
+import 'package:daily_notes/utils/zip_utils.dart';
 import 'package:path/path.dart';
 
 const _zipSignature = [0x50, 0x4B, 0x03, 0x04];

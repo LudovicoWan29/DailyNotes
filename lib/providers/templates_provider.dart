@@ -3,12 +3,12 @@
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
 import 'dart:async';
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/database/template_dao.dart';
-import 'package:daily_you/models/template.dart';
-import 'package:daily_you/providers/tags_provider.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/database/template_dao.dart';
+import 'package:daily_notes/models/template.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:material_ui/material_ui.dart';
 
 class TemplatesProvider with ChangeNotifier {

@@ -4,11 +4,11 @@
 
 import 'dart:io';
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/storage/external_sync_settings.dart';
-import 'package:daily_you/storage/local_file_store.dart';
-import 'package:daily_you/storage/sync_item.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/storage/external_sync_settings.dart';
+import 'package:daily_notes/storage/local_file_store.dart';
+import 'package:daily_notes/storage/sync_item.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' show join;
 

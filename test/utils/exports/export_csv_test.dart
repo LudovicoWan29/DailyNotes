@@ -5,10 +5,10 @@
 import 'dart:convert';
 
 import 'package:csv/csv.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/storage/in_memory_file_store.dart';
-import 'package:daily_you/utils/exports/export_csv.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/storage/in_memory_file_store.dart';
+import 'package:daily_notes/utils/exports/export_csv.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
 

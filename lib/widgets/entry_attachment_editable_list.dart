@@ -4,13 +4,13 @@
 
 import 'dart:ui';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/pages/attachment_view_page.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/attachment_tile_background.dart';
-import 'package:daily_you/widgets/expressive_loading_indicator.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/pages/attachment_view_page.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/attachment_tile_background.dart';
+import 'package:daily_notes/widgets/expressive_loading_indicator.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 
 class EntryAttachmentEditableList extends StatefulWidget {
   final List<EntryAttachment> attachments;

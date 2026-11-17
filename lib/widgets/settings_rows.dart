@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/widgets/settings_dialog.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/widgets/settings_dialog.dart';
 import 'package:material_ui/material_ui.dart';
 
 Widget? _icon(IconData? icon) => icon == null ? null : Icon(icon);

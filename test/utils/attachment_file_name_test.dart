@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:daily_you/utils/attachment_file_name.dart';
+import 'package:daily_notes/utils/attachment_file_name.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

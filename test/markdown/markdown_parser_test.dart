@@ -4,7 +4,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:markdown/markdown.dart' as m;
-import 'package:daily_you/markdown/markdown_parser.dart';
+import 'package:daily_notes/markdown/markdown_parser.dart';
 import 'package:markdown_widget/markdown_widget.dart';
 
 void main() {

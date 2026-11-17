@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
 import 'package:sqflite/sqflite.dart';
 
 class MoodScaleDao {

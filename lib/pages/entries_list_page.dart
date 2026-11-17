@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/layouts/fast_page_view_scroll_physics.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/pages/entry_view_page.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/widgets/desktop_arrow_button.dart';
-import 'package:daily_you/widgets/edge_navigation_arrows.dart';
+import 'package:daily_notes/layouts/fast_page_view_scroll_physics.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/pages/entry_view_page.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/widgets/desktop_arrow_button.dart';
+import 'package:daily_notes/widgets/edge_navigation_arrows.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

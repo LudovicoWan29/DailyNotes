@@ -4,10 +4,10 @@
 
 import 'dart:async';
 
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/database/entry_attachment_dao.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/attachment.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/database/entry_attachment_dao.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/attachment.dart';
 import 'package:material_ui/material_ui.dart';
 
 class EntryAttachmentsProvider with ChangeNotifier {

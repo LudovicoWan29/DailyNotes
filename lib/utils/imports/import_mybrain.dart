@@ -4,11 +4,11 @@
 
 import 'dart:convert';
 
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
-import 'package:daily_you/utils/imports/import_text.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/imports/import_text.dart';
 
 const _moodByName = {
   'TERRIBLE': Mood.veryUnpleasant,

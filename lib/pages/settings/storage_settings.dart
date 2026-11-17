@@ -4,22 +4,22 @@
 
 import 'dart:io';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/storage/external_sync_settings.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/utils/file_size_format.dart';
-import 'package:daily_you/utils/external_sync_flow.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/attachment_type_presentation.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/storage/external_sync_settings.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/utils/file_size_format.dart';
+import 'package:daily_notes/utils/external_sync_flow.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/attachment_type_presentation.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 class StorageSettings extends StatefulWidget {

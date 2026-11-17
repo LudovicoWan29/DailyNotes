@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/widgets/mood_icon.dart';
-import 'package:daily_you/widgets/morphing_burst.dart';
-import 'package:daily_you/widgets/pixel_snap.dart';
-import 'package:daily_you/widgets/punch_scale.dart';
+import 'package:daily_notes/widgets/mood_icon.dart';
+import 'package:daily_notes/widgets/morphing_burst.dart';
+import 'package:daily_notes/widgets/pixel_snap.dart';
+import 'package:daily_notes/widgets/punch_scale.dart';
 import 'package:material_ui/material_ui.dart';
 
 class MoodOption extends StatelessWidget {

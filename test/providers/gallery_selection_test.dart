@@ -4,12 +4,12 @@
 
 import 'dart:async';
 
-import 'package:daily_you/database/entry_store.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/entry_sort.dart';
-import 'package:daily_you/models/gallery_filter.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/providers/gallery_selection.dart';
+import 'package:daily_notes/database/entry_store.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/entry_sort.dart';
+import 'package:daily_notes/models/gallery_filter.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/providers/gallery_selection.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

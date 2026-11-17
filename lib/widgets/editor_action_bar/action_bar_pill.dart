@@ -4,9 +4,9 @@
 
 import 'dart:ui' show lerpDouble;
 
-import 'package:daily_you/widgets/editor_action_bar/dock_metrics.dart';
-import 'package:daily_you/widgets/editor_action_bar/toolbar_entry.dart';
-import 'package:daily_you/widgets/editor_action_bar/toolbar_morph.dart';
+import 'package:daily_notes/widgets/editor_action_bar/dock_metrics.dart';
+import 'package:daily_notes/widgets/editor_action_bar/toolbar_entry.dart';
+import 'package:daily_notes/widgets/editor_action_bar/toolbar_morph.dart';
 import 'package:material_ui/material_ui.dart';
 
 class ActionBarPill extends StatelessWidget {

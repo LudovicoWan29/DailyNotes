@@ -4,9 +4,9 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/mood_scale_preset.dart';
-import 'package:daily_you/widgets/mood_scale_glyph.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/mood_scale_preset.dart';
+import 'package:daily_notes/widgets/mood_scale_glyph.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:material_ui/material_ui.dart';
 

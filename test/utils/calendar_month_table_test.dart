@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/utils/calendar_month_table.dart';
+import 'package:daily_notes/utils/calendar_month_table.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shamsi_date/shamsi_date.dart';
 

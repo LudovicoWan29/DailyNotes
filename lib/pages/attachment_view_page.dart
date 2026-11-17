@@ -4,20 +4,20 @@
 
 import 'dart:io';
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/utils/attachment_mime.dart';
-import 'package:daily_you/utils/duration_format.dart';
-import 'package:daily_you/utils/file_size_format.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/edge_navigation_arrows.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
-import 'package:daily_you/widgets/media_attachment_page.dart';
-import 'package:daily_you/widgets/scale_fade_page_route.dart';
-import 'package:daily_you/widgets/zoomable_attachment_page_view.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/utils/attachment_mime.dart';
+import 'package:daily_notes/utils/duration_format.dart';
+import 'package:daily_notes/utils/file_size_format.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/edge_navigation_arrows.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
+import 'package:daily_notes/widgets/media_attachment_page.dart';
+import 'package:daily_notes/widgets/scale_fade_page_route.dart';
+import 'package:daily_notes/widgets/zoomable_attachment_page_view.dart';
 import 'package:external_opener/external_opener.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:material_ui/material_ui.dart';

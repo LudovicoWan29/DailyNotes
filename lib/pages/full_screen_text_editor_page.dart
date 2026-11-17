@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/utils/word_counter.dart';
-import 'package:daily_you/widgets/editor_action_bar.dart';
-import 'package:daily_you/widgets/entry_text_field.dart';
-import 'package:daily_you/widgets/markdown_preview_controller.dart';
+import 'package:daily_notes/utils/word_counter.dart';
+import 'package:daily_notes/widgets/editor_action_bar.dart';
+import 'package:daily_notes/widgets/entry_text_field.dart';
+import 'package:daily_notes/widgets/markdown_preview_controller.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 
 class FullScreenTextEditorPage extends StatefulWidget {
   final String initialText;

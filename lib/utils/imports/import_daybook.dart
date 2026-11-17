@@ -6,12 +6,12 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:csv/csv.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/storage/local_file_store.dart';
-import 'package:daily_you/utils/imports/import_attachments.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
-import 'package:daily_you/utils/imports/import_text.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/storage/local_file_store.dart';
+import 'package:daily_notes/utils/imports/import_attachments.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/imports/import_text.dart';
 import 'package:path/path.dart';
 
 Future<ImportBundle> parseDaybook(ImportSource source) async {

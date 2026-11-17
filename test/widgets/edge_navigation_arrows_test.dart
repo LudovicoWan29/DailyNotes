@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/widgets/desktop_arrow_button.dart';
-import 'package:daily_you/widgets/edge_navigation_arrows.dart';
+import 'package:daily_notes/widgets/desktop_arrow_button.dart';
+import 'package:daily_notes/widgets/edge_navigation_arrows.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';

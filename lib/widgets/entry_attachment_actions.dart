@@ -5,11 +5,11 @@
 import 'dart:io';
 import 'dart:isolate';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/utils/exif_orientation.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/storage/storage_picker.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/utils/exif_orientation.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';

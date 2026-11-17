@@ -2,20 +2,20 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/gallery_filter.dart';
-import 'package:daily_you/layouts/window_size_class.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/attachment_filter_dialog.dart';
-import 'package:daily_you/widgets/date_filter_dialog.dart';
-import 'package:daily_you/widgets/date_selection_label.dart';
-import 'package:daily_you/widgets/entry_card_widget.dart';
-import 'package:daily_you/widgets/filter_pill.dart';
-import 'package:daily_you/widgets/icons/svg_icon.dart';
-import 'package:daily_you/widgets/mood_filter_dialog.dart';
-import 'package:daily_you/widgets/tag_picker_dialog.dart';
-import 'package:daily_you/widgets/text_filter_dialog.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/gallery_filter.dart';
+import 'package:daily_notes/layouts/window_size_class.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/attachment_filter_dialog.dart';
+import 'package:daily_notes/widgets/date_filter_dialog.dart';
+import 'package:daily_notes/widgets/date_selection_label.dart';
+import 'package:daily_notes/widgets/entry_card_widget.dart';
+import 'package:daily_notes/widgets/filter_pill.dart';
+import 'package:daily_notes/widgets/icons/svg_icon.dart';
+import 'package:daily_notes/widgets/mood_filter_dialog.dart';
+import 'package:daily_notes/widgets/tag_picker_dialog.dart';
+import 'package:daily_notes/widgets/text_filter_dialog.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

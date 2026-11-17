@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
 import 'package:material_ui/material_ui.dart';
 
 Future<bool> confirmDatabaseOverwrite(BuildContext context, String uri,

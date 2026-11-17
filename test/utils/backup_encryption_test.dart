@@ -5,8 +5,8 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:daily_you/utils/backup_encryption.dart';
-import 'package:daily_you/utils/cancellation_token.dart';
+import 'package:daily_notes/utils/backup_encryption.dart';
+import 'package:daily_notes/utils/cancellation_token.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' hide equals;
 

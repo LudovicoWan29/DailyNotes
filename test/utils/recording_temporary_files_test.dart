@@ -4,7 +4,7 @@
 
 import 'dart:io';
 
-import 'package:daily_you/utils/recording_temporary_files.dart';
+import 'package:daily_notes/utils/recording_temporary_files.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' show join;
 

@@ -2,24 +2,24 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/models/gallery_filter.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/pages/settings/tags_settings.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/confirm_dialog.dart';
-import 'package:daily_you/widgets/edit_tag.dart';
-import 'package:daily_you/widgets/none_filter_toggle.dart';
-import 'package:daily_you/widgets/show_logs_button.dart';
-import 'package:daily_you/widgets/tag_attachment_source.dart';
-import 'package:daily_you/widgets/tag_chip.dart';
-import 'package:daily_you/widgets/tag_grouped_chip_list.dart';
-import 'package:daily_you/widgets/tracker_value_dialog.dart';
-import 'package:daily_you/utils/bulk_tag_editor.dart';
-import 'package:daily_you/utils/tag_name_sanitizer.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/models/gallery_filter.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/pages/settings/tags_settings.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/confirm_dialog.dart';
+import 'package:daily_notes/widgets/edit_tag.dart';
+import 'package:daily_notes/widgets/none_filter_toggle.dart';
+import 'package:daily_notes/widgets/show_logs_button.dart';
+import 'package:daily_notes/widgets/tag_attachment_source.dart';
+import 'package:daily_notes/widgets/tag_chip.dart';
+import 'package:daily_notes/widgets/tag_grouped_chip_list.dart';
+import 'package:daily_notes/widgets/tracker_value_dialog.dart';
+import 'package:daily_notes/utils/bulk_tag_editor.dart';
+import 'package:daily_notes/utils/tag_name_sanitizer.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 enum TagPickerMode { attach, selectSingle, filter, bulkEdit }

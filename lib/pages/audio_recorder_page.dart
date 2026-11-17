@@ -5,16 +5,16 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/utils/duration_format.dart';
-import 'package:daily_you/utils/recording_temporary_files.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/audio_waveform_decoration.dart';
-import 'package:daily_you/widgets/expressive_icon_button.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/utils/duration_format.dart';
+import 'package:daily_notes/utils/recording_temporary_files.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/audio_waveform_decoration.dart';
+import 'package:daily_notes/widgets/expressive_icon_button.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
 import 'package:logging/logging.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:path/path.dart' show join;

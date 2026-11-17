@@ -5,14 +5,14 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/models/tag_category.dart';
-import 'package:daily_you/models/tag_icon_type.dart';
-import 'package:daily_you/models/template.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/providers/templates_provider.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/models/tag_category.dart';
+import 'package:daily_notes/models/tag_icon_type.dart';
+import 'package:daily_notes/models/template.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/providers/templates_provider.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
 import 'package:share_plus/share_plus.dart';
 
 const String _tagsFileType = "daily_you_tags";

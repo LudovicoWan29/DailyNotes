@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/utils/markdown_formatting.dart';
-import 'package:daily_you/utils/markdown_preview_scanner.dart';
-import 'package:daily_you/widgets/markdown_preview_controller.dart';
+import 'package:daily_notes/utils/markdown_formatting.dart';
+import 'package:daily_notes/utils/markdown_preview_scanner.dart';
+import 'package:daily_notes/widgets/markdown_preview_controller.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 

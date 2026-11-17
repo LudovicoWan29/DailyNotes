@@ -4,8 +4,8 @@
 
 import 'dart:convert';
 
-import 'package:daily_you/widgets/image_decoded_notification.dart';
-import 'package:daily_you/widgets/snapshot_while_scrolling.dart';
+import 'package:daily_notes/widgets/image_decoded_notification.dart';
+import 'package:daily_notes/widgets/snapshot_while_scrolling.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 

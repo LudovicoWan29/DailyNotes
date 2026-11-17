@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/date_range_selection.dart';
-import 'package:daily_you/utils/year_month_range.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/year_month_picker.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/date_range_selection.dart';
+import 'package:daily_notes/utils/year_month_range.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/year_month_picker.dart';
 import 'package:material_ui/material_ui.dart';
 
 Future<DateTimeRange?> showDateRangeDialog(

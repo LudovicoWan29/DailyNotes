@@ -2,19 +2,19 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/models/tag_icon_type.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/mood_scale_visuals.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/models/tag_icon_type.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/mood_scale_visuals.dart';
 
 class ExportSnapshot {
   const ExportSnapshot({

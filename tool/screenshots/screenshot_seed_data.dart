@@ -4,15 +4,15 @@
 
 import 'dart:io';
 
-import 'package:daily_you/database/entry_store.dart';
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/generated/tag_icon_registry.dart';
+import 'package:daily_notes/database/entry_store.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/generated/tag_icon_registry.dart';
 
 class ScreenshotSeedEntry {
   const ScreenshotSeedEntry({

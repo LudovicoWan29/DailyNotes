@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/pages/settings/storage_settings.dart';
-import 'package:daily_you/storage/external_sync_settings.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/pages/settings/storage_settings.dart';
+import 'package:daily_notes/storage/external_sync_settings.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';

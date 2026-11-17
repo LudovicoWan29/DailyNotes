@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/utils/chart_y_range.dart';
-import 'package:daily_you/utils/mood_scale_visuals.dart';
-import 'package:daily_you/widgets/mood_icon.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/utils/chart_y_range.dart';
+import 'package:daily_notes/utils/mood_scale_visuals.dart';
+import 'package:daily_notes/widgets/mood_icon.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';

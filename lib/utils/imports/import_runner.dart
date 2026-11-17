@@ -4,13 +4,13 @@
 
 import 'dart:io';
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
-import 'package:daily_you/utils/imports/import_writer.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
-import 'package:daily_you/utils/zip_utils.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/imports/import_writer.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
+import 'package:daily_notes/utils/zip_utils.dart';
 import 'package:flutter/widgets.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';

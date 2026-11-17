@@ -4,8 +4,8 @@
 
 import 'dart:math';
 
-import 'package:daily_you/models/gallery_filter.dart';
-import 'package:daily_you/time_manager.dart';
+import 'package:daily_notes/models/gallery_filter.dart';
+import 'package:daily_notes/time_manager.dart';
 import 'package:shamsi_date/shamsi_date.dart';
 
 typedef DayRange = ({DateTime start, DateTime endExclusive});

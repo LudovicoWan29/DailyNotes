@@ -4,8 +4,8 @@
 
 import 'dart:math';
 
-import 'package:daily_you/utils/color_utils.dart';
-import 'package:daily_you/utils/markdown_preview_scanner.dart';
+import 'package:daily_notes/utils/color_utils.dart';
+import 'package:daily_notes/utils/markdown_preview_scanner.dart';
 import 'package:material_ui/material_ui.dart';
 
 /// Maps style onto the Markdown constructs

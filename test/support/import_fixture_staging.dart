@@ -5,8 +5,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daily_you/utils/imports/import_registry.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/imports/import_registry.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' show join, relative;
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';

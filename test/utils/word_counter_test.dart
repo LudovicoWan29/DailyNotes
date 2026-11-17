@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/utils/word_counter.dart';
+import 'package:daily_notes/utils/word_counter.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:word_count/word_count.dart';
 

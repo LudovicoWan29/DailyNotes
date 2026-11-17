@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/stats/stats_analysis.dart';
-import 'package:daily_you/widgets/day_calendar.dart';
+import 'package:daily_notes/stats/stats_analysis.dart';
+import 'package:daily_notes/widgets/day_calendar.dart';
 import 'package:material_ui/material_ui.dart';
 
 class LabelCalendarCard extends StatelessWidget {

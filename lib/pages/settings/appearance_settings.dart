@@ -2,16 +2,16 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/theme_mode_provider.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/color_picker_dialog.dart';
-import 'package:daily_you/widgets/mood_scale_setting.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/theme_mode_provider.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/color_picker_dialog.dart';
+import 'package:daily_notes/widgets/mood_scale_setting.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

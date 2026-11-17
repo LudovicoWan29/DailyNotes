@@ -2,23 +2,23 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/utils/imports/import_daybook.dart' as daybook;
-import 'package:daily_you/utils/imports/import_daylio.dart' as daylio;
-import 'package:daily_you/utils/imports/import_diarium.dart' as diarium;
-import 'package:daily_you/utils/imports/import_diaro.dart' as diaro;
-import 'package:daily_you/utils/imports/import_format.dart';
-import 'package:daily_you/utils/imports/import_json.dart' as json;
-import 'package:daily_you/utils/imports/import_mybrain.dart' as mybrain;
-import 'package:daily_you/utils/imports/import_oneshot.dart' as oneshot;
-import 'package:daily_you/utils/imports/import_pixels.dart' as pixels;
-import 'package:daily_you/utils/imports/import_runner.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/utils/imports/import_daybook.dart' as daybook;
+import 'package:daily_notes/utils/imports/import_daylio.dart' as daylio;
+import 'package:daily_notes/utils/imports/import_diarium.dart' as diarium;
+import 'package:daily_notes/utils/imports/import_diaro.dart' as diaro;
+import 'package:daily_notes/utils/imports/import_format.dart';
+import 'package:daily_notes/utils/imports/import_json.dart' as json;
+import 'package:daily_notes/utils/imports/import_mybrain.dart' as mybrain;
+import 'package:daily_notes/utils/imports/import_oneshot.dart' as oneshot;
+import 'package:daily_notes/utils/imports/import_pixels.dart' as pixels;
+import 'package:daily_notes/utils/imports/import_runner.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
 import 'package:flutter/widgets.dart';
 
-export 'package:daily_you/utils/imports/import_format.dart';
+export 'package:daily_notes/utils/imports/import_format.dart';
 
 const _jsonExtensions = ['json'];
 const _jsonMimeTypes = ['application/json'];

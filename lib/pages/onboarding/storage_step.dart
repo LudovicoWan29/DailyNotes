@@ -4,17 +4,17 @@
 
 import 'dart:io';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/device_info_service.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/pages/onboarding/onboarding_illustrations.dart';
-import 'package:daily_you/pages/onboarding/onboarding_step_layout.dart';
-import 'package:daily_you/pages/onboarding/onboarding_tile.dart';
-import 'package:daily_you/storage/external_sync_settings.dart';
-import 'package:daily_you/utils/external_sync_flow.dart';
-import 'package:daily_you/widgets/app_lock_rows.dart';
-import 'package:daily_you/widgets/backup_rows.dart';
-import 'package:daily_you/widgets/settings_dialog.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/device_info_service.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_illustrations.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_step_layout.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_tile.dart';
+import 'package:daily_notes/storage/external_sync_settings.dart';
+import 'package:daily_notes/utils/external_sync_flow.dart';
+import 'package:daily_notes/widgets/app_lock_rows.dart';
+import 'package:daily_notes/widgets/backup_rows.dart';
+import 'package:daily_notes/widgets/settings_dialog.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

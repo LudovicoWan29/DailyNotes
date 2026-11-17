@@ -2,16 +2,16 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/entry_sort.dart';
-import 'package:daily_you/pages/entries_list_page.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/widgets/content_width_limit.dart';
-import 'package:daily_you/widgets/large_entry_card_widget.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/entry_sort.dart';
+import 'package:daily_notes/pages/entries_list_page.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/widgets/content_width_limit.dart';
+import 'package:daily_notes/widgets/large_entry_card_widget.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

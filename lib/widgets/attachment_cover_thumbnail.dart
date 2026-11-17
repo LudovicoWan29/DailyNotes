@@ -4,11 +4,11 @@
 
 import 'dart:typed_data';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/widgets/image_decoded_notification.dart';
-import 'package:daily_you/widgets/local_image_cache.dart';
-import 'package:daily_you/widgets/local_image_loader.dart';
-import 'package:daily_you/widgets/video_thumbnail_cache.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/widgets/image_decoded_notification.dart';
+import 'package:daily_notes/widgets/local_image_cache.dart';
+import 'package:daily_notes/widgets/local_image_loader.dart';
+import 'package:daily_notes/widgets/video_thumbnail_cache.dart';
 import 'package:material_ui/material_ui.dart';
 
 class AttachmentCoverThumbnail extends StatefulWidget {

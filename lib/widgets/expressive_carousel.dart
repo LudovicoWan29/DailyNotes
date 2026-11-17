@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/utils/carousel_fling.dart';
-import 'package:daily_you/utils/carousel_layout.dart';
-import 'package:daily_you/widgets/desktop_arrow_button.dart';
+import 'package:daily_notes/utils/carousel_fling.dart';
+import 'package:daily_notes/utils/carousel_layout.dart';
+import 'package:daily_notes/widgets/desktop_arrow_button.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/rendering.dart';
 import 'package:material_ui/material_ui.dart';

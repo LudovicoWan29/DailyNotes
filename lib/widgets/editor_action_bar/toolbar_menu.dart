@@ -4,8 +4,8 @@
 
 import 'dart:ui' show SemanticsRole;
 
-import 'package:daily_you/widgets/editor_action_bar/dock_metrics.dart';
-import 'package:daily_you/widgets/editor_action_bar/toolbar_menu_action.dart';
+import 'package:daily_notes/widgets/editor_action_bar/dock_metrics.dart';
+import 'package:daily_notes/widgets/editor_action_bar/toolbar_menu_action.dart';
 import 'package:flutter/services.dart';
 import 'package:material_ui/material_ui.dart';
 

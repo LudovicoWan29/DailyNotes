@@ -4,9 +4,9 @@
 
 import 'dart:io';
 
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/imports/import_registry.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/imports/import_registry.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' show join;
 

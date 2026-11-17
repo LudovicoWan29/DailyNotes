@@ -2,23 +2,23 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/stats/stats_analysis.dart';
-import 'package:daily_you/stats/stats_range.dart';
-import 'package:daily_you/stats/streaks.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/count_format.dart';
-import 'package:daily_you/widgets/content_width_limit.dart';
-import 'package:daily_you/widgets/day_calendar.dart';
-import 'package:daily_you/widgets/frequency_bars.dart';
-import 'package:daily_you/widgets/sparkline.dart';
-import 'package:daily_you/widgets/stat_progress_bar.dart';
-import 'package:daily_you/widgets/stat_range_selector.dart';
-import 'package:daily_you/widgets/stat_tile.dart';
-import 'package:daily_you/widgets/streak_hero_card.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/stats/stats_analysis.dart';
+import 'package:daily_notes/stats/stats_range.dart';
+import 'package:daily_notes/stats/streaks.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/count_format.dart';
+import 'package:daily_notes/widgets/content_width_limit.dart';
+import 'package:daily_notes/widgets/day_calendar.dart';
+import 'package:daily_notes/widgets/frequency_bars.dart';
+import 'package:daily_notes/widgets/sparkline.dart';
+import 'package:daily_notes/widgets/stat_progress_bar.dart';
+import 'package:daily_notes/widgets/stat_range_selector.dart';
+import 'package:daily_notes/widgets/stat_tile.dart';
+import 'package:daily_notes/widgets/streak_hero_card.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

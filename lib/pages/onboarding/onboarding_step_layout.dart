@@ -4,8 +4,8 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/pages/onboarding/onboarding_scope.dart';
-import 'package:daily_you/widgets/snapshot_while_scrolling.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_scope.dart';
+import 'package:daily_notes/widgets/snapshot_while_scrolling.dart';
 import 'package:flutter/foundation.dart';
 import 'package:material_ui/material_ui.dart';
 

@@ -3,17 +3,17 @@
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
 import 'dart:math' as math;
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/bucket_combiner.dart';
-import 'package:daily_you/utils/chart_axis.dart';
-import 'package:daily_you/utils/chart_y_range.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/connected_button_group.dart';
-import 'package:daily_you/widgets/no_data_overlay.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/bucket_combiner.dart';
+import 'package:daily_notes/utils/chart_axis.dart';
+import 'package:daily_notes/utils/chart_y_range.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/connected_button_group.dart';
+import 'package:daily_notes/widgets/no_data_overlay.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/utils/secondary_text_style.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/utils/secondary_text_style.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';

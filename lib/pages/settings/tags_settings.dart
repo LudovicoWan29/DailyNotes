@@ -2,24 +2,24 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/models/tag_category.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/utils/tag_category_visuals.dart';
-import 'package:daily_you/utils/templates_tags_transfer.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/edit_category.dart';
-import 'package:daily_you/widgets/edit_tag.dart';
-import 'package:daily_you/widgets/expressive_fab_menu.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/share_tags_dialog.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
-import 'package:daily_you/widgets/tag_chip.dart';
-import 'package:daily_you/widgets/tag_icon_glyph.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/models/tag_category.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/utils/tag_category_visuals.dart';
+import 'package:daily_notes/utils/templates_tags_transfer.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/edit_category.dart';
+import 'package:daily_notes/widgets/edit_tag.dart';
+import 'package:daily_notes/widgets/expressive_fab_menu.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/share_tags_dialog.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/widgets/tag_chip.dart';
+import 'package:daily_notes/widgets/tag_icon_glyph.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 sealed class _ListItem {

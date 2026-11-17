@@ -5,13 +5,13 @@
 import 'dart:io';
 
 import 'package:app_settings/app_settings.dart';
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/device_info_service.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/language_option.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/device_info_service.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/language_option.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';

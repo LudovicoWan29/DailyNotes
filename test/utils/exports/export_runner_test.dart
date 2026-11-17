@@ -5,12 +5,12 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/utils/exports/export_registry.dart';
-import 'package:daily_you/utils/exports/export_runner.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
-import 'package:daily_you/utils/zip_utils.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/utils/exports/export_registry.dart';
+import 'package:daily_notes/utils/exports/export_runner.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
+import 'package:daily_notes/utils/zip_utils.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';

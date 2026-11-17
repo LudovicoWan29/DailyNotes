@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/storage/external_sync_settings.dart';
-import 'package:daily_you/storage/sync_item.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/storage/external_sync_settings.dart';
+import 'package:daily_notes/storage/sync_item.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../support/config_provider_harness.dart';

@@ -1,5 +1,5 @@
-name: daily_you
-description: Every day is worth remembering...
+name: daily_notes
+description: Save photo notes
 publish_to: 'none'
 version: 1.0.0+1000000
 

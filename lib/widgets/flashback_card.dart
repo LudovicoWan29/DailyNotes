@@ -2,15 +2,15 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/widgets/attachment_grid.dart';
-import 'package:daily_you/widgets/bottom_fade.dart';
-import 'package:daily_you/widgets/expressive_carousel.dart';
-import 'package:daily_you/widgets/scaled_markdown.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/widgets/attachment_grid.dart';
+import 'package:daily_notes/widgets/bottom_fade.dart';
+import 'package:daily_notes/widgets/expressive_carousel.dart';
+import 'package:daily_notes/widgets/scaled_markdown.dart';
 import 'package:material_ui/material_ui.dart';
 
 const _cardInset = 14.0;

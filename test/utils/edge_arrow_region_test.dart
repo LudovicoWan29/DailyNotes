@@ -4,7 +4,7 @@
 
 import 'dart:ui';
 
-import 'package:daily_you/utils/edge_arrow_region.dart';
+import 'package:daily_notes/utils/edge_arrow_region.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

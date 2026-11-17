@@ -4,7 +4,7 @@
 
 import 'dart:typed_data';
 
-import 'package:daily_you/utils/exif_orientation.dart';
+import 'package:daily_notes/utils/exif_orientation.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
 

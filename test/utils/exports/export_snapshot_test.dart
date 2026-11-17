@@ -5,12 +5,12 @@
 import 'dart:io';
 import 'dart:ui';
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' show join;
 

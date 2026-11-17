@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/utils/attachment_mime.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/utils/attachment_mime.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

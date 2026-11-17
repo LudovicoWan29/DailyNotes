@@ -4,22 +4,22 @@
 
 import 'dart:io';
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/providers/gallery_selection.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/utils/bulk_tag_editor.dart';
-import 'package:daily_you/utils/exports/export_runner.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/delete_confirm_dialog.dart';
-import 'package:daily_you/widgets/export_format_dialog.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
-import 'package:daily_you/widgets/gallery_action_menu.dart';
-import 'package:daily_you/widgets/icons/svg_icon.dart';
-import 'package:daily_you/widgets/partial_matches_dialog.dart';
-import 'package:daily_you/widgets/tag_picker_dialog.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/providers/gallery_selection.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/utils/bulk_tag_editor.dart';
+import 'package:daily_notes/utils/exports/export_runner.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/delete_confirm_dialog.dart';
+import 'package:daily_notes/widgets/export_format_dialog.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
+import 'package:daily_notes/widgets/gallery_action_menu.dart';
+import 'package:daily_notes/widgets/icons/svg_icon.dart';
+import 'package:daily_notes/widgets/partial_matches_dialog.dart';
+import 'package:daily_notes/widgets/tag_picker_dialog.dart';
 import 'package:material_ui/material_ui.dart';
 
 Future<void> exportEntries(

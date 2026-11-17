@@ -4,25 +4,25 @@
 
 import 'dart:ui' as ui;
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/pages/edit_entry_page.dart';
-import 'package:daily_you/pages/entry_timeline_page.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/tag_visuals.dart';
-import 'package:daily_you/widgets/attachment_cover_thumbnail.dart';
-import 'package:daily_you/widgets/cached_text.dart';
-import 'package:daily_you/widgets/day_menu.dart';
-import 'package:daily_you/widgets/tag_icon_glyph.dart';
-import 'package:daily_you/widgets/pixel_snap.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/pages/edit_entry_page.dart';
+import 'package:daily_notes/pages/entry_timeline_page.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/tag_visuals.dart';
+import 'package:daily_notes/widgets/attachment_cover_thumbnail.dart';
+import 'package:daily_notes/widgets/cached_text.dart';
+import 'package:daily_notes/widgets/day_menu.dart';
+import 'package:daily_notes/widgets/tag_icon_glyph.dart';
+import 'package:daily_notes/widgets/pixel_snap.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/widgets/mood_icon.dart';
+import 'package:daily_notes/widgets/mood_icon.dart';
 import 'package:provider/provider.dart';
-import 'package:daily_you/pages/entries_list_page.dart';
+import 'package:daily_notes/pages/entries_list_page.dart';
 
 class EntryDayCell extends StatelessWidget {
   final DateTime date;

@@ -4,20 +4,20 @@
 
 import 'dart:io';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/utils/restore_flow.dart';
-import 'package:daily_you/widgets/backup_rows.dart';
-import 'package:daily_you/utils/import_flow.dart';
-import 'package:daily_you/utils/exports/export_runner.dart';
-import 'package:daily_you/widgets/export_format_dialog.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/utils/restore_flow.dart';
+import 'package:daily_notes/widgets/backup_rows.dart';
+import 'package:daily_notes/utils/import_flow.dart';
+import 'package:daily_notes/utils/exports/export_runner.dart';
+import 'package:daily_notes/widgets/export_format_dialog.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 class BackupRestoreSettings extends StatefulWidget {

@@ -5,7 +5,7 @@
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
-import 'package:daily_you/widgets/cached_text.dart';
+import 'package:daily_notes/widgets/cached_text.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';

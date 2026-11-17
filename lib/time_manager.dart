@@ -4,9 +4,9 @@
 
 import 'dart:ui' show PlatformDispatcher;
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/utils/jalali_calendar_delegate.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/utils/jalali_calendar_delegate.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:intl/intl.dart';
 import 'package:shamsi_date/shamsi_date.dart';

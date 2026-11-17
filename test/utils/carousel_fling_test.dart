@@ -4,7 +4,7 @@
 
 import 'dart:math';
 
-import 'package:daily_you/utils/carousel_fling.dart';
+import 'package:daily_notes/utils/carousel_fling.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter_test/flutter_test.dart';
 

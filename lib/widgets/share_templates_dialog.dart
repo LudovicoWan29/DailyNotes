@@ -4,12 +4,12 @@
 
 import 'dart:io';
 
-import 'package:daily_you/providers/templates_provider.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/utils/templates_tags_transfer.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
+import 'package:daily_notes/providers/templates_provider.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/utils/templates_tags_transfer.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 class ShareTemplatesDialog extends StatefulWidget {

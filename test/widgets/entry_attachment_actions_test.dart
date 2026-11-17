@@ -4,11 +4,11 @@
 
 import 'dart:typed_data';
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/storage/in_memory_file_store.dart';
-import 'package:daily_you/widgets/entry_attachment_actions.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/storage/in_memory_file_store.dart';
+import 'package:daily_notes/widgets/entry_attachment_actions.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

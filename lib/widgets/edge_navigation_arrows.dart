@@ -4,8 +4,8 @@
 
 import 'dart:async';
 
-import 'package:daily_you/utils/edge_arrow_region.dart';
-import 'package:daily_you/widgets/desktop_arrow_button.dart';
+import 'package:daily_notes/utils/edge_arrow_region.dart';
+import 'package:daily_notes/widgets/desktop_arrow_button.dart';
 import 'package:flutter/gestures.dart';
 import 'package:material_ui/material_ui.dart';
 

@@ -5,10 +5,10 @@
 import 'dart:convert';
 
 import 'package:csv/csv.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/storage/file_store.dart';
-import 'package:daily_you/utils/exports/export_naming.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/storage/file_store.dart';
+import 'package:daily_notes/utils/exports/export_naming.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
 
 const csvDocumentName = 'daily_you_export.csv';
 const _trackerColumnPrefix = 'tracker:';

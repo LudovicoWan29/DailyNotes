@@ -3,16 +3,16 @@
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
 import 'package:app_settings/app_settings.dart';
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/notification_manager.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
-import 'package:daily_you/widgets/reminder_time_dialog.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/notification_manager.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
+import 'package:daily_notes/widgets/reminder_time_dialog.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 class NotificationSettings extends StatelessWidget {

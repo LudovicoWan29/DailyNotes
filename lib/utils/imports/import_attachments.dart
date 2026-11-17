@@ -4,8 +4,8 @@
 
 import 'dart:io';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
 
 Future<List<ImportedAttachment>> existingImageAttachments(
     Iterable<File> files, DateTime timeCreate) async {

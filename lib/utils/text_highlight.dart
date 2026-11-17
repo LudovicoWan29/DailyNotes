@@ -4,8 +4,8 @@
 
 import 'dart:ui';
 
-import 'package:daily_you/models/gallery_filter.dart';
-import 'package:daily_you/utils/search_matcher.dart';
+import 'package:daily_notes/models/gallery_filter.dart';
+import 'package:daily_notes/utils/search_matcher.dart';
 
 class TextHighlight {
   const TextHighlight({

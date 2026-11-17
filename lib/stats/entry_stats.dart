@@ -4,8 +4,8 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/tag.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/tag.dart';
 
 const List<String> _weekdayKeys = [
   'Mon',

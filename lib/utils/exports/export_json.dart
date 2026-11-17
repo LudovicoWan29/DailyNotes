@@ -4,9 +4,9 @@
 
 import 'dart:convert';
 
-import 'package:daily_you/storage/file_store.dart';
-import 'package:daily_you/utils/exports/export_naming.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/storage/file_store.dart';
+import 'package:daily_notes/utils/exports/export_naming.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
 
 const jsonDocumentName = 'daily_you_export.json';
 const jsonFormatMarker = 'daily-you';

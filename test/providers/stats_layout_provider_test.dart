@@ -4,12 +4,12 @@
 
 import 'dart:io';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/database/tag_dao.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/providers/stats_layout_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/database/tag_dao.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/providers/stats_layout_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';

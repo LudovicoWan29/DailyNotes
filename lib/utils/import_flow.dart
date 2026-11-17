@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/utils/imports/import_registry.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
-import 'package:daily_you/widgets/settings_dialog.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/utils/imports/import_registry.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
+import 'package:daily_notes/widgets/settings_dialog.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
 import 'package:material_ui/material_ui.dart';
 
 abstract final class ImportFlow {

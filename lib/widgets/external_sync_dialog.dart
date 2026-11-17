@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/storage/external_sync_settings.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/storage/sync_item.dart';
-import 'package:daily_you/widgets/database_overwrite_dialog.dart';
-import 'package:daily_you/widgets/sync_item_presentation.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/storage/external_sync_settings.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/storage/sync_item.dart';
+import 'package:daily_notes/widgets/database_overwrite_dialog.dart';
+import 'package:daily_notes/widgets/sync_item_presentation.dart';
 import 'package:material_ui/material_ui.dart';
 
 class ExternalSyncDialog extends StatefulWidget {

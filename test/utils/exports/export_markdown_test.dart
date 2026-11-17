@@ -4,12 +4,12 @@
 
 import 'dart:convert';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/storage/in_memory_file_store.dart';
-import 'package:daily_you/utils/exports/export_markdown.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/storage/in_memory_file_store.dart';
+import 'package:daily_notes/utils/exports/export_markdown.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:yaml/yaml.dart';

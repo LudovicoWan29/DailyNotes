@@ -4,18 +4,18 @@
 
 import 'dart:io';
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/pages/onboarding/onboarding_background.dart';
-import 'package:daily_you/pages/onboarding/onboarding_footer.dart';
-import 'package:daily_you/pages/onboarding/onboarding_progress_bar.dart';
-import 'package:daily_you/pages/onboarding/onboarding_scope.dart';
-import 'package:daily_you/pages/onboarding/onboarding_step.dart';
-import 'package:daily_you/pages/onboarding/onboarding_step_layout.dart';
-import 'package:daily_you/pages/onboarding/reminders_step.dart';
-import 'package:daily_you/pages/onboarding/import_step.dart';
-import 'package:daily_you/pages/onboarding/storage_step.dart';
-import 'package:daily_you/pages/onboarding/welcome_step.dart';
-import 'package:daily_you/utils/onboarding_status.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_background.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_footer.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_progress_bar.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_scope.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_step.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_step_layout.dart';
+import 'package:daily_notes/pages/onboarding/reminders_step.dart';
+import 'package:daily_notes/pages/onboarding/import_step.dart';
+import 'package:daily_notes/pages/onboarding/storage_step.dart';
+import 'package:daily_notes/pages/onboarding/welcome_step.dart';
+import 'package:daily_notes/utils/onboarding_status.dart';
 import 'package:flutter/rendering.dart' show ScrollCacheExtent;
 import 'package:flutter/services.dart';
 import 'package:material_ui/material_ui.dart';

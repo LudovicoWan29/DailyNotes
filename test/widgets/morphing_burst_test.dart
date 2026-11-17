@@ -4,7 +4,7 @@
 
 import 'dart:ui' as ui;
 
-import 'package:daily_you/widgets/morphing_burst.dart';
+import 'package:daily_notes/widgets/morphing_burst.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

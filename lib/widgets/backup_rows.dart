@@ -2,17 +2,17 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/device_info_service.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/auto_backup_schedule.dart';
-import 'package:daily_you/utils/password_store.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/auth_popup.dart';
-import 'package:daily_you/widgets/auto_backup_options.dart';
-import 'package:daily_you/widgets/settings_dialog.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/device_info_service.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/auto_backup_schedule.dart';
+import 'package:daily_notes/utils/password_store.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/auth_popup.dart';
+import 'package:daily_notes/widgets/auto_backup_options.dart';
+import 'package:daily_notes/widgets/settings_dialog.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
 import 'package:material_ui/material_ui.dart';
 
 abstract final class BackupRows {

@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/mood_scale_preset.dart';
-import 'package:daily_you/widgets/color_picker_dialog.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/mood_scale_preset.dart';
+import 'package:daily_notes/widgets/color_picker_dialog.dart';
 import 'package:flutter/material.dart' show Colors;
 import 'package:flutter_test/flutter_test.dart';
 

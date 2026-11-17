@@ -4,15 +4,15 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/stats/stats_influence.dart';
-import 'package:daily_you/utils/mood_scale_visuals.dart';
-import 'package:daily_you/utils/secondary_text_style.dart';
-import 'package:daily_you/utils/tag_visuals.dart';
-import 'package:daily_you/widgets/tag_icon_glyph.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/stats/stats_influence.dart';
+import 'package:daily_notes/utils/mood_scale_visuals.dart';
+import 'package:daily_notes/utils/secondary_text_style.dart';
+import 'package:daily_notes/utils/tag_visuals.dart';
+import 'package:daily_notes/widgets/tag_icon_glyph.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

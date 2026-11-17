@@ -4,17 +4,17 @@
 
 import 'dart:typed_data';
 
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/models/tag_icon_type.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
-import 'package:daily_you/utils/imports/import_text.dart';
-import 'package:daily_you/utils/imports/import_time.dart';
-import 'package:daily_you/utils/tag_name_sanitizer.dart';
-import 'package:daily_you/utils/generated/tag_icon_registry.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/models/tag_icon_type.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/imports/import_text.dart';
+import 'package:daily_notes/utils/imports/import_time.dart';
+import 'package:daily_notes/utils/tag_name_sanitizer.dart';
+import 'package:daily_notes/utils/generated/tag_icon_registry.dart';
 import 'package:html2md/html2md.dart' as html2md;
 import 'package:sqflite/sqflite.dart';
 

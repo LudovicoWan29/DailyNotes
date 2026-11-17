@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/stats/stats_analysis.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/chart_bar_width.dart';
-import 'package:daily_you/utils/chart_y_range.dart';
-import 'package:daily_you/widgets/no_data_overlay.dart';
-import 'package:daily_you/utils/secondary_text_style.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/stats/stats_analysis.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/chart_bar_width.dart';
+import 'package:daily_notes/utils/chart_y_range.dart';
+import 'package:daily_notes/widgets/no_data_overlay.dart';
+import 'package:daily_notes/utils/secondary_text_style.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:provider/provider.dart';

@@ -3,11 +3,11 @@
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/layouts/window_size_class.dart';
-import 'package:daily_you/stats/stats_range.dart';
-import 'package:daily_you/widgets/connected_button_group.dart';
-import 'package:daily_you/widgets/stats_range_labels.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/layouts/window_size_class.dart';
+import 'package:daily_notes/stats/stats_range.dart';
+import 'package:daily_notes/widgets/connected_button_group.dart';
+import 'package:daily_notes/widgets/stats_range_labels.dart';
 
 class StatsRangeSelector extends StatelessWidget {
   static const double _wideTopPadding = 12;

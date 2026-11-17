@@ -4,15 +4,15 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/stats/stats_analysis.dart';
-import 'package:daily_you/time_manager.dart';
-import 'package:daily_you/utils/mood_scale_visuals.dart';
-import 'package:daily_you/widgets/animated_values.dart';
-import 'package:daily_you/widgets/mood_tier_mark.dart';
-import 'package:daily_you/widgets/no_data_overlay.dart';
-import 'package:daily_you/utils/secondary_text_style.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/stats/stats_analysis.dart';
+import 'package:daily_notes/time_manager.dart';
+import 'package:daily_notes/utils/mood_scale_visuals.dart';
+import 'package:daily_notes/widgets/animated_values.dart';
+import 'package:daily_notes/widgets/mood_tier_mark.dart';
+import 'package:daily_notes/widgets/no_data_overlay.dart';
+import 'package:daily_notes/utils/secondary_text_style.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 

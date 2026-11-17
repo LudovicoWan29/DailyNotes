@@ -4,10 +4,10 @@
 
 import 'dart:io';
 
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/utils/generated/tag_icon_registry.dart';
-import 'package:daily_you/utils/mood_scale_visuals.dart';
-import 'package:daily_you/widgets/glyph_ink.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/utils/generated/tag_icon_registry.dart';
+import 'package:daily_notes/utils/mood_scale_visuals.dart';
+import 'package:daily_notes/widgets/glyph_ink.dart';
 import 'package:material_ui/material_ui.dart';
 
 class MoodScaleGlyph extends StatefulWidget {

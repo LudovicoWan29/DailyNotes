@@ -6,12 +6,12 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:isolate';
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/file_bytes_cache.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/storage/file_store.dart';
-import 'package:daily_you/storage/local_file_store.dart';
-import 'package:daily_you/utils/exif_orientation.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/file_bytes_cache.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/storage/file_store.dart';
+import 'package:daily_notes/storage/local_file_store.dart';
+import 'package:daily_notes/utils/exif_orientation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';

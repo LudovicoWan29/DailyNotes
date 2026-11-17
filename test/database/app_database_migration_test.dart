@@ -4,12 +4,12 @@
 
 import 'dart:io';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/mood_scale_preset.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/utils/generated/tag_icon_registry.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/mood_scale_preset.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/utils/generated/tag_icon_registry.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' show join;
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';

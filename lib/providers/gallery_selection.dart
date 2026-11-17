@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/providers/entries_provider.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
 import 'package:flutter/foundation.dart';
 
 class GallerySelection with ChangeNotifier {

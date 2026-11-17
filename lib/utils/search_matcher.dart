@@ -5,8 +5,8 @@
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:daily_you/utils/bitap_pattern.dart';
-import 'package:daily_you/utils/text_folding.dart';
+import 'package:daily_notes/utils/bitap_pattern.dart';
+import 'package:daily_notes/utils/text_folding.dart';
 
 const int _maxApproximateLength = 32;
 

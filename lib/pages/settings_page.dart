@@ -3,24 +3,24 @@
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
 import 'dart:io';
-import 'package:daily_you/layouts/window_size_class.dart';
-import 'package:daily_you/pages/settings/about_settings.dart';
-import 'package:daily_you/pages/settings/appearance_settings.dart';
-import 'package:daily_you/pages/settings/backup_restore_settings.dart';
-import 'package:daily_you/pages/settings/flashback_settings.dart';
-import 'package:daily_you/pages/settings/language_settings.dart';
-import 'package:daily_you/pages/settings/notification_settings.dart';
-import 'package:daily_you/pages/settings/security_settings.dart';
-import 'package:daily_you/pages/settings/storage_settings.dart';
-import 'package:daily_you/pages/settings/tags_settings.dart';
-import 'package:daily_you/pages/settings/templates_page.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
-import 'package:daily_you/widgets/settings_rows.dart';
+import 'package:daily_notes/layouts/window_size_class.dart';
+import 'package:daily_notes/pages/settings/about_settings.dart';
+import 'package:daily_notes/pages/settings/appearance_settings.dart';
+import 'package:daily_notes/pages/settings/backup_restore_settings.dart';
+import 'package:daily_notes/pages/settings/flashback_settings.dart';
+import 'package:daily_notes/pages/settings/language_settings.dart';
+import 'package:daily_notes/pages/settings/notification_settings.dart';
+import 'package:daily_notes/pages/settings/security_settings.dart';
+import 'package:daily_notes/pages/settings/storage_settings.dart';
+import 'package:daily_notes/pages/settings/tags_settings.dart';
+import 'package:daily_notes/pages/settings/templates_page.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/widgets/settings_rows.dart';
 import 'package:flutter/gestures.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 

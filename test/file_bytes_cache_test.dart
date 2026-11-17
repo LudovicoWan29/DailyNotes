@@ -4,7 +4,7 @@
 
 import 'dart:typed_data';
 
-import 'package:daily_you/file_bytes_cache.dart';
+import 'package:daily_notes/file_bytes_cache.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

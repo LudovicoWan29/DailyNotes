@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/custom_locale_delegates.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/mood_scale_preset.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/widgets/edit_mood_scale.dart';
-import 'package:daily_you/widgets/mood_scale_glyph.dart';
-import 'package:daily_you/widgets/mood_scale_setting.dart';
+import 'package:daily_notes/custom_locale_delegates.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/mood_scale_preset.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/widgets/edit_mood_scale.dart';
+import 'package:daily_notes/widgets/mood_scale_glyph.dart';
+import 'package:daily_notes/widgets/mood_scale_setting.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';

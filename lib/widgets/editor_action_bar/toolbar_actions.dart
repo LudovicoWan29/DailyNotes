@@ -4,12 +4,12 @@
 
 import 'dart:async';
 
-import 'package:daily_you/utils/markdown_formatting.dart';
-import 'package:daily_you/utils/markdown_preview_scanner.dart';
-import 'package:daily_you/utils/text_editing.dart';
-import 'package:daily_you/widgets/app_dialog.dart';
-import 'package:daily_you/widgets/editor_action_bar/toolbar_menu_action.dart';
-import 'package:daily_you/widgets/icons/svg_icon.dart';
+import 'package:daily_notes/utils/markdown_formatting.dart';
+import 'package:daily_notes/utils/markdown_preview_scanner.dart';
+import 'package:daily_notes/utils/text_editing.dart';
+import 'package:daily_notes/widgets/app_dialog.dart';
+import 'package:daily_notes/widgets/editor_action_bar/toolbar_menu_action.dart';
+import 'package:daily_notes/widgets/icons/svg_icon.dart';
 import 'package:material_ui/material_ui.dart';
 
 @immutable

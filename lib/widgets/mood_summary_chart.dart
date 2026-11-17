@@ -4,13 +4,13 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/utils/count_format.dart';
-import 'package:daily_you/utils/secondary_text_style.dart';
-import 'package:daily_you/widgets/mood_tier_bar.dart';
-import 'package:daily_you/widgets/mood_tier_mark.dart';
-import 'package:daily_you/widgets/no_data_overlay.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/utils/count_format.dart';
+import 'package:daily_notes/utils/secondary_text_style.dart';
+import 'package:daily_notes/widgets/mood_tier_bar.dart';
+import 'package:daily_notes/widgets/mood_tier_mark.dart';
+import 'package:daily_notes/widgets/no_data_overlay.dart';
 import 'package:material_ui/material_ui.dart';
 
 class MoodSummaryChart extends StatelessWidget {

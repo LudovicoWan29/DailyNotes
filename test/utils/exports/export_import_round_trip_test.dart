@@ -4,20 +4,20 @@
 
 import 'dart:io';
 
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/database/entry_attachment_dao.dart';
-import 'package:daily_you/database/entry_dao.dart';
-import 'package:daily_you/database/entry_tag_dao.dart';
-import 'package:daily_you/database/tag_category_dao.dart';
-import 'package:daily_you/database/tag_dao.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/mood_scale_level.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/storage/storage_picker.dart';
-import 'package:daily_you/utils/exports/export_registry.dart';
-import 'package:daily_you/utils/exports/export_runner.dart';
-import 'package:daily_you/utils/imports/import_registry.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/database/entry_attachment_dao.dart';
+import 'package:daily_notes/database/entry_dao.dart';
+import 'package:daily_notes/database/entry_tag_dao.dart';
+import 'package:daily_notes/database/tag_category_dao.dart';
+import 'package:daily_notes/database/tag_dao.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/mood_scale_level.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/storage/storage_picker.dart';
+import 'package:daily_notes/utils/exports/export_registry.dart';
+import 'package:daily_notes/utils/exports/export_runner.dart';
+import 'package:daily_notes/utils/imports/import_registry.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
 

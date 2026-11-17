@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:material_ui/material_ui.dart';
 
 class StatsLayoutProvider with ChangeNotifier {

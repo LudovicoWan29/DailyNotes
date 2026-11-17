@@ -5,9 +5,9 @@
 import 'dart:math' as math;
 import 'package:fl_chart/fl_chart.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/utils/chart_bar_width.dart';
-import 'package:daily_you/widgets/no_data_overlay.dart';
-import 'package:daily_you/utils/secondary_text_style.dart';
+import 'package:daily_notes/utils/chart_bar_width.dart';
+import 'package:daily_notes/widgets/no_data_overlay.dart';
+import 'package:daily_notes/utils/secondary_text_style.dart';
 
 class _Bin {
   final double min;

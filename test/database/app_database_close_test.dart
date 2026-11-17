@@ -4,7 +4,7 @@
 
 import 'dart:async';
 
-import 'package:daily_you/database/app_database.dart';
+import 'package:daily_notes/database/app_database.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 

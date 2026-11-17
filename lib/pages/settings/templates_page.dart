@@ -2,18 +2,18 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/template.dart';
-import 'package:daily_you/utils/backup_restore_utils.dart';
-import 'package:daily_you/utils/templates_tags_transfer.dart';
-import 'package:daily_you/widgets/edit_template.dart';
-import 'package:daily_you/widgets/failure_dialog.dart';
-import 'package:daily_you/widgets/share_templates_dialog.dart';
-import 'package:daily_you/widgets/segmented_group.dart';
-import 'package:daily_you/widgets/settings_page_scaffold.dart';
+import 'package:daily_notes/models/template.dart';
+import 'package:daily_notes/utils/backup_restore_utils.dart';
+import 'package:daily_notes/utils/templates_tags_transfer.dart';
+import 'package:daily_notes/widgets/edit_template.dart';
+import 'package:daily_notes/widgets/failure_dialog.dart';
+import 'package:daily_notes/widgets/share_templates_dialog.dart';
+import 'package:daily_notes/widgets/segmented_group.dart';
+import 'package:daily_notes/widgets/settings_page_scaffold.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/providers/templates_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/providers/templates_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 class TemplateSettings extends StatefulWidget {

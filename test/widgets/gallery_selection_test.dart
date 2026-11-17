@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/providers/gallery_selection.dart';
-import 'package:daily_you/widgets/selectable_entry_card.dart';
+import 'package:daily_notes/providers/gallery_selection.dart';
+import 'package:daily_notes/widgets/selectable_entry_card.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter_test/flutter_test.dart';
 

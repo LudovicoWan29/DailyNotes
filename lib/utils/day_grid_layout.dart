@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:daily_you/time_manager.dart';
+import 'package:daily_notes/time_manager.dart';
 
 class DayGridLayout {
   DayGridLayout({

@@ -4,19 +4,19 @@
 
 import 'dart:math';
 
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/database/entry_tag_dao.dart';
-import 'package:daily_you/database/tag_category_dao.dart';
-import 'package:daily_you/database/tag_dao.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/models/tag_category.dart';
-import 'package:daily_you/providers/entries_provider.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
-import 'package:daily_you/utils/operation_outcome.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/database/entry_tag_dao.dart';
+import 'package:daily_notes/database/tag_category_dao.dart';
+import 'package:daily_notes/database/tag_dao.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/models/tag_category.dart';
+import 'package:daily_notes/providers/entries_provider.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
+import 'package:daily_notes/utils/operation_outcome.dart';
 import 'package:path/path.dart';
 
 class ImportWriter {

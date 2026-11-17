@@ -5,14 +5,14 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/storage/local_file_store.dart';
-import 'package:daily_you/utils/imports/import_attachments.dart';
-import 'package:daily_you/utils/imports/import_bundle.dart';
-import 'package:daily_you/utils/imports/import_source.dart';
-import 'package:daily_you/utils/imports/import_text.dart';
-import 'package:daily_you/utils/imports/import_time.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/storage/local_file_store.dart';
+import 'package:daily_notes/utils/imports/import_attachments.dart';
+import 'package:daily_notes/utils/imports/import_bundle.dart';
+import 'package:daily_notes/utils/imports/import_source.dart';
+import 'package:daily_notes/utils/imports/import_text.dart';
+import 'package:daily_notes/utils/imports/import_time.dart';
 import 'package:path/path.dart';
 import 'package:xml/xml.dart';
 

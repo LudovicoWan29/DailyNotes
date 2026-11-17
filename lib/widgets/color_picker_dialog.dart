@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
 import 'package:material_ui/material_ui.dart';
-import 'package:daily_you/widgets/hue_ring_color_picker.dart';
+import 'package:daily_notes/widgets/hue_ring_color_picker.dart';
 
 final List<Color> tagColorPalette = [
   Colors.red.shade500,

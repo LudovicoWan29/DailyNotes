@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/layouts/window_size_class.dart';
-import 'package:daily_you/utils/duration_format.dart';
-import 'package:daily_you/widgets/expressive_icon_button.dart';
+import 'package:daily_notes/layouts/window_size_class.dart';
+import 'package:daily_notes/utils/duration_format.dart';
+import 'package:daily_notes/widgets/expressive_icon_button.dart';
 import 'package:material_ui/material_ui.dart';
 
 class MediaPlaybackControls extends StatefulWidget {

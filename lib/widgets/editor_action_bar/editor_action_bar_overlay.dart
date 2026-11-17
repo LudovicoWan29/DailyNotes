@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/widgets/editor_action_bar.dart';
-import 'package:daily_you/widgets/editor_action_bar/dock_metrics.dart';
-import 'package:daily_you/widgets/editor_action_bar/editor_keyboard_session.dart';
+import 'package:daily_notes/widgets/editor_action_bar.dart';
+import 'package:daily_notes/widgets/editor_action_bar/dock_metrics.dart';
+import 'package:daily_notes/widgets/editor_action_bar/editor_keyboard_session.dart';
 import 'package:material_ui/material_ui.dart';
 
 class EditorActionBarOverlay extends StatefulWidget {

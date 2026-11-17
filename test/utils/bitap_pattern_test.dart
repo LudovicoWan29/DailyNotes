@@ -4,7 +4,7 @@
 
 import 'dart:math';
 
-import 'package:daily_you/utils/bitap_pattern.dart';
+import 'package:daily_notes/utils/bitap_pattern.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 int referenceErrors(String text, String pattern) {

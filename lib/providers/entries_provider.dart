@@ -5,15 +5,15 @@
 import 'dart:async';
 import 'dart:isolate';
 
-import 'package:daily_you/database/entry_store.dart';
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/entry_sort.dart';
-import 'package:daily_you/models/gallery_filter.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/folded_text_index.dart';
-import 'package:daily_you/utils/gallery_filtering.dart';
-import 'package:daily_you/utils/search_matcher.dart';
+import 'package:daily_notes/database/entry_store.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/entry_sort.dart';
+import 'package:daily_notes/models/gallery_filter.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/folded_text_index.dart';
+import 'package:daily_notes/utils/gallery_filtering.dart';
+import 'package:daily_notes/utils/search_matcher.dart';
 import 'package:material_ui/material_ui.dart';
 
 class EntriesProvider with ChangeNotifier {

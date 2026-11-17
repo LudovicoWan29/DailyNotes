@@ -4,15 +4,15 @@
 
 import 'dart:typed_data';
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/database/attachment_storage.dart';
-import 'package:daily_you/models/attachment.dart';
-import 'package:daily_you/providers/entry_attachments_provider.dart';
-import 'package:daily_you/storage/external_sync.dart';
-import 'package:daily_you/storage/external_sync_settings.dart';
-import 'package:daily_you/storage/file_store.dart';
-import 'package:daily_you/storage/in_memory_file_store.dart';
-import 'package:daily_you/storage/sync_item.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/database/attachment_storage.dart';
+import 'package:daily_notes/models/attachment.dart';
+import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/storage/external_sync.dart';
+import 'package:daily_notes/storage/external_sync_settings.dart';
+import 'package:daily_notes/storage/file_store.dart';
+import 'package:daily_notes/storage/in_memory_file_store.dart';
+import 'package:daily_notes/storage/sync_item.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../support/config_provider_harness.dart';

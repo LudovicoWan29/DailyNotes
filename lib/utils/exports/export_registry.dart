@@ -2,15 +2,15 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/storage/file_store.dart';
-import 'package:daily_you/utils/exports/export_csv.dart';
-import 'package:daily_you/utils/exports/export_format.dart';
-import 'package:daily_you/utils/exports/export_json.dart';
-import 'package:daily_you/utils/exports/export_markdown.dart';
-import 'package:daily_you/utils/exports/export_snapshot.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/storage/file_store.dart';
+import 'package:daily_notes/utils/exports/export_csv.dart';
+import 'package:daily_notes/utils/exports/export_format.dart';
+import 'package:daily_notes/utils/exports/export_json.dart';
+import 'package:daily_notes/utils/exports/export_markdown.dart';
+import 'package:daily_notes/utils/exports/export_snapshot.dart';
 
-export 'package:daily_you/utils/exports/export_format.dart';
+export 'package:daily_notes/utils/exports/export_format.dart';
 
 typedef ExportWriter = Future<Map<String, String>> Function(
     ExportSnapshot snapshot, FileStore store);

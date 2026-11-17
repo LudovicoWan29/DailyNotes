@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/models/entry.dart';
-import 'package:daily_you/models/tag.dart';
-import 'package:daily_you/providers/tags_provider.dart';
+import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/tag.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../support/export_harness.dart';

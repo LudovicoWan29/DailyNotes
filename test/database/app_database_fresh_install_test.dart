@@ -4,13 +4,13 @@
 
 import 'dart:io';
 
-import 'package:daily_you/database/app_database.dart';
-import 'package:daily_you/models/mood.dart';
-import 'package:daily_you/models/mood_scale_preset.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/providers/stats_layout_provider.dart';
-import 'package:daily_you/providers/tags_provider.dart';
-import 'package:daily_you/utils/generated/tag_icon_registry.dart';
+import 'package:daily_notes/database/app_database.dart';
+import 'package:daily_notes/models/mood.dart';
+import 'package:daily_notes/models/mood_scale_preset.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/providers/stats_layout_provider.dart';
+import 'package:daily_notes/providers/tags_provider.dart';
+import 'package:daily_notes/utils/generated/tag_icon_registry.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';

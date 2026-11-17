@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Additional terms under GPLv3 section 7 apply; see ADDITIONAL_TERMS.md.
 
-import 'package:daily_you/config_provider.dart';
-import 'package:daily_you/l10n/generated/app_localizations.dart';
-import 'package:daily_you/pages/onboarding/onboarding_page.dart';
-import 'package:daily_you/pages/onboarding/onboarding_scope.dart';
-import 'package:daily_you/pages/onboarding/welcome_step.dart';
-import 'package:daily_you/providers/mood_scale_provider.dart';
-import 'package:daily_you/theme_mode_provider.dart';
+import 'package:daily_notes/config_provider.dart';
+import 'package:daily_notes/l10n/generated/app_localizations.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_page.dart';
+import 'package:daily_notes/pages/onboarding/onboarding_scope.dart';
+import 'package:daily_notes/pages/onboarding/welcome_step.dart';
+import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/theme_mode_provider.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
