@@ -25,26 +25,42 @@ class AboutSettings extends StatelessWidget {
       children: [
         SegmentedGroup(children: [
           SettingsActionRow(
+            icon: Icons.fork_right_rounded,
+            title: l10n.settingsForkTitle,
+            subtitle: l10n.settingsForkDescription,
+            onTap: () =>
+                _open(Uri.https("github.com", "/LudovicoWan29/DailyYouNotes")),
+          ),
+          SettingsActionRow(
+            icon: Icons.history_edu_rounded,
+            title: l10n.settingsOriginalProject,
+            subtitle: "github.com/Demizo/Daily_You",
+            onTap: () => _open(Uri.https("github.com", "/Demizo/Daily_You")),
+          ),
+        ]),
+        SegmentedGroup(children: [
+          SettingsActionRow(
             icon: Icons.info_rounded,
             title: l10n.settingsVersion,
             subtitle: DeviceInfoService().appInfo?.version ?? "0.0.0",
-            onTap: () =>
-                _open(Uri.https("github.com", "/Demizo/Daily_You/releases")),
+            onTap: () => _open(Uri.https(
+                "github.com", "/LudovicoWan29/DailyYouNotes/releases")),
           ),
           SettingsActionRow(
             icon: Icons.bug_report_rounded,
             title: l10n.errorReport,
-            subtitle: "github.com/Demizo/Daily_You/issues",
-            onTap: () =>
-                _open(Uri.https("github.com", "/Demizo/Daily_You/issues")),
+            subtitle: "github.com/LudovicoWan29/DailyYouNotes/issues",
+            onTap: () => _open(
+                Uri.https("github.com", "/LudovicoWan29/DailyYouNotes/issues")),
           ),
         ]),
         SegmentedGroup(children: [
           SettingsActionRow(
             icon: Icons.code_rounded,
             title: l10n.settingsSourceCode,
-            subtitle: "github.com/Demizo/Daily_You",
-            onTap: () => _open(Uri.https("github.com", "/Demizo/Daily_You")),
+            subtitle: "github.com/LudovicoWan29/DailyYouNotes",
+            onTap: () =>
+                _open(Uri.https("github.com", "/LudovicoWan29/DailyYouNotes")),
           ),
           SettingsActionRow(
             icon: Icons.gavel_rounded,
@@ -53,7 +69,7 @@ class AboutSettings extends StatelessWidget {
             onTap: () => _open(Uri(
                 scheme: "https",
                 host: "github.com",
-                path: "/Demizo/Daily_You",
+                path: "/LudovicoWan29/DailyYouNotes",
                 fragment: "license")),
           ),
           SettingsActionRow(

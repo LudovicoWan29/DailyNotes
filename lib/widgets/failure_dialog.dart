@@ -60,7 +60,7 @@ class FailureDialog extends StatelessWidget {
         ),
         TextButton(
           onPressed: () => launchUrl(
-              Uri.https("github.com", "/Demizo/Daily_You/issues"),
+              Uri.https("github.com", "/LudovicoWan29/DailyYouNotes/issues"),
               mode: LaunchMode.externalApplication),
           child: Text(AppLocalizations.of(context)!.errorReport),
         ),

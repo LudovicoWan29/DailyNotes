@@ -3,7 +3,10 @@
 </p>
 <div align="center">
   
-# Daily You
+# Daily Notes
+
+> **Daily Notes is an unofficial, modified fork of [Daily You](https://github.com/Demizo/Daily_You) by Demizo and contributors.** It is not the official app and is not affiliated with the original author. Licensed under GPLv3 with the original additional terms (see `ADDITIONAL_TERMS.md`).
+
 
 [<img src="https://f-droid.org/badge/get-it-on.png" height="80">](https://f-droid.org/en/packages/com.demizo.daily_you/)
 [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.demizo.daily_you)
