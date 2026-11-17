@@ -9,7 +9,7 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appTitle => 'Daily You';
+  String get appTitle => 'Daily Notes';
 
   @override
   String get dailyReminderTitle => '오늘을 기록하세요!';
@@ -378,7 +378,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get databaseNewerErrorDescription =>
-      'Your data was saved by a newer version of Daily You. This version can\'t open it safely. Update the app to continue.';
+      'Your data was saved by a newer version of Daily Notes. This version can\'t open it safely. Update the app to continue.';
 
   @override
   String get errorReport => 'Report Issue';
@@ -886,7 +886,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get welcomeLogBodyText =>
-      '## Welcome to Daily You\n\n> Every day is worth remembering, capture it!\n\n**Daily You** is free, [open source](https://github.com/Demizo/Daily_You), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you\'re journaling, reflecting, or just noting what made you smile, **Daily You** gives you a private space that\'s _truly your own_.';
+      '## Welcome to Daily Notes\n\n> Every day is worth remembering, capture it!\n\n**Daily Notes** is free, [open source](https://github.com/LudovicoWan29/DailyYouNotes), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you\'re journaling, reflecting, or just noting what made you smile, **Daily Notes** gives you a private space that\'s _truly your own_.';
 
   @override
   String get settingsStorageTitle => '저장소';
@@ -1176,7 +1176,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get settingsSecurityPasswordWarning =>
-      'If you forget it, you won\'t be able to open Daily You.';
+      'If you forget it, you won\'t be able to open Daily Notes.';
 
   @override
   String get requiredPrompt => '필요';
@@ -1201,6 +1201,16 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get settingsSourceCode => '소스 코드';
+
+  @override
+  String get settingsForkTitle => 'Modified version of Daily You';
+
+  @override
+  String get settingsForkDescription =>
+      'Daily Notes is an unofficial fork of Daily You by Demizo and contributors. It is not the official app.';
+
+  @override
+  String get settingsOriginalProject => 'Original project: Daily You';
 
   @override
   String get settingsOpenSourceLicenses => 'Open Source Licenses';
@@ -1365,7 +1375,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get onboardingStorageNote => 'You can change these later in Settings.';
 
   @override
-  String get onboardingWelcomeTitle => 'Welcome to Daily You';
+  String get onboardingWelcomeTitle => 'Welcome to Daily Notes';
 
   @override
   String get onboardingWelcomeDescription => 'Every day is worth remembering.';

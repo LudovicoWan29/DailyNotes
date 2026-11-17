@@ -9,7 +9,7 @@ class AppLocalizationsCs extends AppLocalizations {
   AppLocalizationsCs([String locale = 'cs']) : super(locale);
 
   @override
-  String get appTitle => 'Daily You';
+  String get appTitle => 'Daily Notes';
 
   @override
   String get dailyReminderTitle => 'Zapiš si dnešek!';
@@ -374,7 +374,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get databaseNewerErrorDescription =>
-      'Your data was saved by a newer version of Daily You. This version can\'t open it safely. Update the app to continue.';
+      'Your data was saved by a newer version of Daily Notes. This version can\'t open it safely. Update the app to continue.';
 
   @override
   String get errorReport => 'Nahlásit chybu';
@@ -887,7 +887,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get welcomeLogBodyText =>
-      '## Vítejte v Daily You\n\n> Každý den si má cenu pamatovat, zapište si jej!\n\n**Daily You** je zdarma, [open source](https://github.com/Demizo/Daily_You), a podporovaný komunitou. Založenona myšlence, že deník by měl být soukromí a ne produkt:\n\n- Bez reklam\n- Žádný paywall\n- Žádné sledování a sběr dat\n\nAťuz si zapisujete každý den, vaše nápady, nebo co vás třeba rozesmálo, **Daily You** vám dává soukromí prostor, který _plně vlastníte_.';
+      '## Vítejte v Daily Notes\n\n> Každý den si má cenu pamatovat, zapište si jej!\n\n**Daily Notes** je zdarma, [open source](https://github.com/LudovicoWan29/DailyYouNotes), a podporovaný komunitou. Založenona myšlence, že deník by měl být soukromí a ne produkt:\n\n- Bez reklam\n- Žádný paywall\n- Žádné sledování a sběr dat\n\nAťuz si zapisujete každý den, vaše nápady, nebo co vás třeba rozesmálo, **Daily Notes** vám dává soukromí prostor, který _plně vlastníte_.';
 
   @override
   String get settingsStorageTitle => 'Uložiště';
@@ -1182,7 +1182,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get settingsSecurityPasswordWarning =>
-      'If you forget it, you won\'t be able to open Daily You.';
+      'If you forget it, you won\'t be able to open Daily Notes.';
 
   @override
   String get requiredPrompt => 'Povinné';
@@ -1207,6 +1207,16 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get settingsSourceCode => 'Zdrojový kód';
+
+  @override
+  String get settingsForkTitle => 'Modified version of Daily You';
+
+  @override
+  String get settingsForkDescription =>
+      'Daily Notes is an unofficial fork of Daily You by Demizo and contributors. It is not the official app.';
+
+  @override
+  String get settingsOriginalProject => 'Original project: Daily You';
 
   @override
   String get settingsOpenSourceLicenses => 'Open Source Licenses';
@@ -1371,7 +1381,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get onboardingStorageNote => 'You can change these later in Settings.';
 
   @override
-  String get onboardingWelcomeTitle => 'Welcome to Daily You';
+  String get onboardingWelcomeTitle => 'Welcome to Daily Notes';
 
   @override
   String get onboardingWelcomeDescription => 'Every day is worth remembering.';

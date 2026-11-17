@@ -8,8 +8,8 @@ script:
 AppDir:
   path: ./AppDir
   app_info:
-    id: com.demizo.daily_you
-    name: Daily You
+    id: com.ludovicowan29.daily_notes
+    name: Daily Notes
     icon: logo
     version: 3.10.0
     exec: daily_you

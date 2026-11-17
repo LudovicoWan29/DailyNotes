@@ -167,7 +167,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'Daily You'**
+  /// **'Daily Notes'**
   String get appTitle;
 
   /// No description provided for @dailyReminderTitle.
@@ -623,7 +623,7 @@ abstract class AppLocalizations {
   /// No description provided for @databaseNewerErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Your data was saved by a newer version of Daily You. This version can\'t open it safely. Update the app to continue.'**
+  /// **'Your data was saved by a newer version of Daily Notes. This version can\'t open it safely. Update the app to continue.'**
   String get databaseNewerErrorDescription;
 
   /// No description provided for @errorReport.
@@ -1499,7 +1499,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcomeLogBodyText.
   ///
   /// In en, this message translates to:
-  /// **'## Welcome to Daily You\n\n> Every day is worth remembering, capture it!\n\n**Daily You** is free, [open source](https://github.com/Demizo/Daily_You), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you\'re journaling, reflecting, or just noting what made you smile, **Daily You** gives you a private space that\'s _truly your own_.'**
+  /// **'## Welcome to Daily Notes\n\n> Every day is worth remembering, capture it!\n\n**Daily Notes** is free, [open source](https://github.com/LudovicoWan29/DailyYouNotes), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you\'re journaling, reflecting, or just noting what made you smile, **Daily Notes** gives you a private space that\'s _truly your own_.'**
   String get welcomeLogBodyText;
 
   /// No description provided for @settingsStorageTitle.
@@ -2033,7 +2033,7 @@ abstract class AppLocalizations {
   /// Warning shown above the password fields when setting a password, explaining that a forgotten password locks the user out
   ///
   /// In en, this message translates to:
-  /// **'If you forget it, you won\'t be able to open Daily You.'**
+  /// **'If you forget it, you won\'t be able to open Daily Notes.'**
   String get settingsSecurityPasswordWarning;
 
   /// No description provided for @requiredPrompt.
@@ -2083,6 +2083,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Source Code'**
   String get settingsSourceCode;
+
+  /// No description provided for @settingsForkTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Modified version of Daily You'**
+  String get settingsForkTitle;
+
+  /// No description provided for @settingsForkDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily Notes is an unofficial fork of Daily You by Demizo and contributors. It is not the official app.'**
+  String get settingsForkDescription;
+
+  /// No description provided for @settingsOriginalProject.
+  ///
+  /// In en, this message translates to:
+  /// **'Original project: Daily You'**
+  String get settingsOriginalProject;
 
   /// No description provided for @settingsOpenSourceLicenses.
   ///
@@ -2339,7 +2357,7 @@ abstract class AppLocalizations {
   /// Title of the first onboarding step
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Daily You'**
+  /// **'Welcome to Daily Notes'**
   String get onboardingWelcomeTitle;
 
   /// Description under the title of the first onboarding step

@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'Daily You';
+  String get appTitle => 'Daily Notes';
 
   @override
   String get dailyReminderTitle => '记得留下今日日迹！';
@@ -378,7 +378,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get databaseNewerErrorDescription =>
-      '您的数据已由更新版本的 Daily You 保存。此版本无法安全打开该数据。请更新应用以继续。';
+      '您的数据已由更新版本的 Daily Notes 保存。此版本无法安全打开该数据。请更新应用以继续。';
 
   @override
   String get errorReport => '报告问题';
@@ -883,7 +883,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get welcomeLogBodyText =>
-      '## 欢迎使用 Daily You\n\n> 每一天都值得被记住、捕捉下来！\n\n**Daily You** 是免费的、[开源](https://github.com/Demizo/Daily_You)的，并由社区支持。建立在「你的日记应该属于你，而不是某个产品」这样的理念之上：\n\n- 无广告\n- 无锁定功能\n- 无追踪或资料收集\n\n无论你是在写日记、反思，或者只是记录让你开心的瞬间，**Daily You** 都为你提供一个_真正属于你_的私密空间。';
+      '## 欢迎使用 Daily Notes\n\n> 每一天都值得被记住、捕捉下来！\n\n**Daily Notes** 是免费的、[开源](https://github.com/LudovicoWan29/DailyYouNotes)的，并由社区支持。建立在「你的日记应该属于你，而不是某个产品」这样的理念之上：\n\n- 无广告\n- 无锁定功能\n- 无追踪或资料收集\n\n无论你是在写日记、反思，或者只是记录让你开心的瞬间，**Daily Notes** 都为你提供一个_真正属于你_的私密空间。';
 
   @override
   String get settingsStorageTitle => '存储与同步';
@@ -1171,7 +1171,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsSecurityPasswordWarning =>
-      'If you forget it, you won\'t be able to open Daily You.';
+      'If you forget it, you won\'t be able to open Daily Notes.';
 
   @override
   String get requiredPrompt => '请输入密码';
@@ -1196,6 +1196,16 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsSourceCode => '源代码';
+
+  @override
+  String get settingsForkTitle => 'Modified version of Daily You';
+
+  @override
+  String get settingsForkDescription =>
+      'Daily Notes is an unofficial fork of Daily You by Demizo and contributors. It is not the official app.';
+
+  @override
+  String get settingsOriginalProject => 'Original project: Daily You';
 
   @override
   String get settingsOpenSourceLicenses => '开源许可';
@@ -1359,7 +1369,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get onboardingStorageNote => 'You can change these later in Settings.';
 
   @override
-  String get onboardingWelcomeTitle => 'Welcome to Daily You';
+  String get onboardingWelcomeTitle => 'Welcome to Daily Notes';
 
   @override
   String get onboardingWelcomeDescription => 'Every day is worth remembering.';
@@ -1386,7 +1396,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   AppLocalizationsZhHant() : super('zh_Hant');
 
   @override
-  String get appTitle => 'Daily You';
+  String get appTitle => 'Daily Notes';
 
   @override
   String get dailyReminderTitle => '記錄今天！';
@@ -1648,7 +1658,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get databaseNewerErrorDescription =>
-      '您的資料由較新版本的 Daily You 儲存，此版本無法安全地開啟它。請更新應用程式以繼續。';
+      '您的資料由較新版本的 Daily Notes 儲存，此版本無法安全地開啟它。請更新應用程式以繼續。';
 
   @override
   String get errorReport => '報告問題';
@@ -2051,7 +2061,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get welcomeLogBodyText =>
-      '## 歡迎使用 Daily You\n\n> 每一天都值得被記住、被捕捉下來！\n\n**Daily You** 是免費的、[開源](https://github.com/Demizo/Daily_You)的，並由社群支援。建立在「你的日記應該屬於你，而不是某個產品」這樣的信念之上：\n\n- 無廣告\n- 無鎖定功能\n- 無追蹤或資料蒐集\n\n無論你是在寫日誌、反思，還是只是記錄讓你微笑的事，**Daily You** 都為你提供一個_真正屬於你_的私密空間。';
+      '## 歡迎使用 Daily Notes\n\n> 每一天都值得被記住、被捕捉下來！\n\n**Daily Notes** 是免費的、[開源](https://github.com/LudovicoWan29/DailyYouNotes)的，並由社群支援。建立在「你的日記應該屬於你，而不是某個產品」這樣的信念之上：\n\n- 無廣告\n- 無鎖定功能\n- 無追蹤或資料蒐集\n\n無論你是在寫日誌、反思，還是只是記錄讓你微笑的事，**Daily Notes** 都為你提供一個_真正屬於你_的私密空間。';
 
   @override
   String get settingsStorageTitle => '存儲與同步';

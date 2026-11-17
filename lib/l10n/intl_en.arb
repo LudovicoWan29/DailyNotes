@@ -1,5 +1,5 @@
 {
-  "appTitle": "Daily You",
+  "appTitle": "Daily Notes",
   "@appTitle": {},
   "dailyReminderTitle": "Log Today!",
   "@dailyReminderTitle": {},
@@ -196,7 +196,7 @@
   "@databaseMigrationErrorRetry": {},
   "databaseNewerErrorTitle": "Update Required",
   "@databaseNewerErrorTitle": {},
-  "databaseNewerErrorDescription": "Your data was saved by a newer version of Daily You. This version can't open it safely. Update the app to continue.",
+  "databaseNewerErrorDescription": "Your data was saved by a newer version of Daily Notes. This version can't open it safely. Update the app to continue.",
   "@databaseNewerErrorDescription": {},
   "errorReport": "Report Issue",
   "@errorReport": {},
@@ -530,7 +530,7 @@
   "@tagAnxiousName": {},
   "tagAnnoyedName": "Annoyed",
   "@tagAnnoyedName": {},
-  "welcomeLogBodyText": "## Welcome to Daily You\n\n> Every day is worth remembering, capture it!\n\n**Daily You** is free, [open source](https://github.com/Demizo/Daily_You), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you're journaling, reflecting, or just noting what made you smile, **Daily You** gives you a private space that's _truly your own_.",
+  "welcomeLogBodyText": "## Welcome to Daily Notes\n\n> Every day is worth remembering, capture it!\n\n**Daily Notes** is free, [open source](https://github.com/LudovicoWan29/DailyYouNotes), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you're journaling, reflecting, or just noting what made you smile, **Daily Notes** gives you a private space that's _truly your own_.",
   "@welcomeLogBodyText": {},
   "settingsStorageTitle": "Storage & Sync",
   "@settingsStorageTitle": {},
@@ -708,7 +708,7 @@
   "@settingsSecurityIncorrectPassword": {},
   "settingsSecurityPasswordsDoNotMatch": "Passwords do not match",
   "@settingsSecurityPasswordsDoNotMatch": {},
-  "settingsSecurityPasswordWarning": "If you forget it, you won't be able to open Daily You.",
+  "settingsSecurityPasswordWarning": "If you forget it, you won't be able to open Daily Notes.",
   "@settingsSecurityPasswordWarning": {
     "description": "Warning shown above the password fields when setting a password, explaining that a forgotten password locks the user out"
   },
@@ -728,6 +728,12 @@
   "@licenseGPLv3": {},
   "settingsSourceCode": "Source Code",
   "@settingsSourceCode": {},
+  "settingsForkTitle": "Modified version of Daily You",
+  "@settingsForkTitle": {},
+  "settingsForkDescription": "Daily Notes is an unofficial fork of Daily You by Demizo and contributors. It is not the official app.",
+  "@settingsForkDescription": {},
+  "settingsOriginalProject": "Original project: Daily You",
+  "@settingsOriginalProject": {},
   "settingsOpenSourceLicenses": "Open Source Licenses",
   "@settingsOpenSourceLicenses": {},
   "settingsMadeWithLove": "Made with ❤️",
@@ -852,7 +858,7 @@
   "@onboardingStorageNote": {
     "description": "Description under the title of the onboarding storage step, noting the choices can be changed later in settings"
   },
-  "onboardingWelcomeTitle": "Welcome to Daily You",
+  "onboardingWelcomeTitle": "Welcome to Daily Notes",
   "@onboardingWelcomeTitle": {
     "description": "Title of the first onboarding step"
   },
