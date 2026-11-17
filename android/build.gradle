@@ -9,6 +9,15 @@ rootProject.buildDir = '../build'
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
 }
+// Java targets 17 in every module; keep Kotlin on the same target so building
+// with a newer JDK (e.g. Android Studio's JDK 21) doesn't fail validation.
+subprojects {
+    plugins.withId("org.jetbrains.kotlin.android") {
+        extensions.configure("kotlin") { kotlinExt ->
+            kotlinExt.compilerOptions.jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+        }
+    }
+}
 subprojects {
     project.evaluationDependsOn(':app')
 }
