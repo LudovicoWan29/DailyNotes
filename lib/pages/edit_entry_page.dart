@@ -5,7 +5,6 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:daily_notes/config_provider.dart';
 import 'package:daily_notes/database/attachment_storage.dart';
 import 'package:daily_notes/database/entry_store.dart';
 import 'package:daily_notes/models/attachment.dart';
@@ -16,13 +15,11 @@ import 'package:daily_notes/models/template.dart';
 import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:daily_notes/providers/templates_provider.dart';
 import 'package:daily_notes/widgets/app_dialog.dart';
-import 'package:daily_notes/utils/file_size_format.dart';
-import 'package:daily_notes/widgets/attachment_type_presentation.dart';
 import 'package:daily_notes/widgets/content_width_limit.dart';
 import 'package:daily_notes/widgets/entry_date_time_labels.dart';
 import 'package:daily_notes/widgets/entry_draft_dirty_tracker.dart';
 import 'package:daily_notes/widgets/failure_dialog.dart';
-import 'package:daily_notes/widgets/file_size_row.dart';
+import 'package:daily_notes/widgets/large_attachment_warning.dart';
 import 'package:daily_notes/widgets/tag_attachment_source.dart';
 import 'package:daily_notes/widgets/tag_grouped_chip_list.dart';
 import 'package:daily_notes/widgets/tag_picker_dialog.dart';
@@ -749,58 +746,6 @@ class _AddEditEntryPageState extends State<AddEditEntryPage>
   }
 
   Future<void> _warnAboutSize(
-      AttachmentType type, String name, int sizeBytes) async {
-    if (ConfigProvider.instance.get(Settings.suppressLargeAttachmentWarning) ||
-        !mounted) {
-      return;
-    }
-
-    var suppress = false;
-    await showAppDialog(
-      context: context,
-      builder: (dialogContext) => StatefulBuilder(
-        builder: (dialogContext, setLocalState) => AlertDialog(
-          title: Text(
-              AppLocalizations.of(dialogContext)!.largeAttachmentWarningTitle),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(AppLocalizations.of(dialogContext)!
-                  .largeAttachmentWarningDescription),
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 12),
-                child: FileSizeRow(
-                  icon: type.icon,
-                  label: name,
-                  sizeText: formatFileSize(sizeBytes,
-                      AppLocalizations.of(dialogContext)!.localeName),
-                ),
-              ),
-              CheckboxListTile(
-                contentPadding: EdgeInsets.zero,
-                value: suppress,
-                onChanged: (value) =>
-                    setLocalState(() => suppress = value ?? false),
-                title: Text(AppLocalizations.of(dialogContext)!.dontShowAgain),
-              ),
-            ],
-          ),
-          actions: [
-            TextButton(
-              onPressed: () async {
-                if (suppress) {
-                  await ConfigProvider.instance
-                      .set(Settings.suppressLargeAttachmentWarning, true);
-                }
-                if (dialogContext.mounted) Navigator.pop(dialogContext);
-              },
-              child:
-                  Text(MaterialLocalizations.of(dialogContext).okButtonLabel),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+          AttachmentType type, String name, int sizeBytes) =>
+      showLargeAttachmentWarning(context, type, name, sizeBytes);
 }
