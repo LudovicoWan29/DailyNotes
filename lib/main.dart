@@ -18,6 +18,7 @@ import 'package:daily_notes/providers/entries_provider.dart';
 import 'package:daily_notes/providers/entry_attachments_provider.dart';
 import 'package:daily_notes/providers/gallery_selection.dart';
 import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/providers/notes_provider.dart';
 import 'package:daily_notes/providers/stats_layout_provider.dart';
 import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:daily_notes/providers/templates_provider.dart';
@@ -277,6 +278,9 @@ void main() async {
     ),
     ChangeNotifierProvider<GallerySelection>(
       create: (_) => GallerySelection.instance,
+    ),
+    ChangeNotifierProvider<NotesProvider>(
+      create: (_) => NotesProvider.instance,
     ),
     ChangeNotifierProvider<StatsLayoutProvider>(
       create: (_) => StatsLayoutProvider.instance,

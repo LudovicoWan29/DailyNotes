@@ -308,6 +308,60 @@ abstract class AppLocalizations {
   /// **'Gallery'**
   String get pageGalleryTitle;
 
+  /// No description provided for @pageNotesTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Notes'**
+  String get pageNotesTitle;
+
+  /// No description provided for @notesEmptyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'No notes yet'**
+  String get notesEmptyTitle;
+
+  /// No description provided for @notesEmptyDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap + to add a note with photos. Notes are not tied to a date.'**
+  String get notesEmptyDescription;
+
+  /// No description provided for @actionAddNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Add note'**
+  String get actionAddNote;
+
+  /// No description provided for @noteNewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New note'**
+  String get noteNewTitle;
+
+  /// No description provided for @noteEditTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit note'**
+  String get noteEditTitle;
+
+  /// No description provided for @noteTextHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Write a note…'**
+  String get noteTextHint;
+
+  /// No description provided for @noteDeleteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete note?'**
+  String get noteDeleteTitle;
+
+  /// No description provided for @noteDeleteDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'This note and its photos will be permanently deleted.'**
+  String get noteDeleteDescription;
+
   /// No description provided for @searchLogsHint.
   ///
   /// In en, this message translates to:

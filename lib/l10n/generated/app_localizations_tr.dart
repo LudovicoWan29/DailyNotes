@@ -105,6 +105,35 @@ class AppLocalizationsTr extends AppLocalizations {
   String get pageGalleryTitle => 'Galeri';
 
   @override
+  String get pageNotesTitle => 'Notes';
+
+  @override
+  String get notesEmptyTitle => 'No notes yet';
+
+  @override
+  String get notesEmptyDescription =>
+      'Tap + to add a note with photos. Notes are not tied to a date.';
+
+  @override
+  String get actionAddNote => 'Add note';
+
+  @override
+  String get noteNewTitle => 'New note';
+
+  @override
+  String get noteEditTitle => 'Edit note';
+
+  @override
+  String get noteTextHint => 'Write a note…';
+
+  @override
+  String get noteDeleteTitle => 'Delete note?';
+
+  @override
+  String get noteDeleteDescription =>
+      'This note and its photos will be permanently deleted.';
+
+  @override
   String get searchLogsHint => 'Kayıt Ara…';
 
   @override
