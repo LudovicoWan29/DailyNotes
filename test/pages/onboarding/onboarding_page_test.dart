@@ -53,7 +53,7 @@ void main() {
       (tester) async {
     await pumpPage(tester);
 
-    expect(find.text('Welcome to Daily You'), findsOneWidget);
+    expect(find.text('Welcome to Daily Notes'), findsOneWidget);
     expect(find.byIcon(Icons.check_rounded), findsNWidgets(3));
     expect(find.text('Skip'), findsOneWidget);
   });
@@ -208,14 +208,14 @@ void main() {
   testWidgets('lays out on a wide desktop window', (tester) async {
     await pumpPage(tester, size: const Size(1280, 720));
 
-    expect(find.text('Welcome to Daily You'), findsOneWidget);
+    expect(find.text('Welcome to Daily Notes'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 
   testWidgets('lays out on a short phone window', (tester) async {
     await pumpPage(tester, size: const Size(360, 520));
 
-    expect(find.text('Welcome to Daily You'), findsOneWidget);
+    expect(find.text('Welcome to Daily Notes'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 }
