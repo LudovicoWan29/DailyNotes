@@ -12,6 +12,7 @@ import 'package:daily_notes/models/mood_scale_preset.dart';
 import 'package:daily_notes/pages/gallery_page.dart';
 import 'package:daily_notes/providers/entries_provider.dart';
 import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/notes_provider.dart';
 import 'package:daily_notes/providers/gallery_selection.dart';
 import 'package:daily_notes/providers/mood_scale_provider.dart';
 import 'package:daily_notes/providers/tags_provider.dart';
@@ -30,6 +31,7 @@ Entry _galleryEntry(int id) => Entry(
 Future<void> pumpGalleryPage(WidgetTester tester, {int entryCount = 2}) async {
   MoodScaleProvider.instance.levels = MoodScalePreset.emoji.levels;
   EntryAttachmentsProvider.instance.isLoaded = true;
+  NotesProvider.instance.isLoaded = true;
   EntryStore.instance.entries = [
     for (var id = 1; id <= entryCount; id++) _galleryEntry(id),
   ];

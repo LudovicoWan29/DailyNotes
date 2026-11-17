@@ -10,6 +10,7 @@ import 'package:daily_notes/database/app_database.dart';
 import 'package:daily_notes/database/attachment_storage.dart';
 import 'package:daily_notes/models/attachment.dart';
 import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/notes_provider.dart';
 import 'package:daily_notes/storage/file_store.dart';
 import 'package:daily_notes/storage/in_memory_file_store.dart';
 import 'package:daily_notes/storage/local_file_store.dart';
@@ -137,7 +138,9 @@ void main() {
 
   void useImages(List<String> imageNames) {
     EntryAttachmentsProvider.instance.isLoaded = true;
+    NotesProvider.instance.isLoaded = true;
     addTearDown(() => EntryAttachmentsProvider.instance.isLoaded = false);
+    addTearDown(() => NotesProvider.instance.isLoaded = false);
     final createdTime = DateTime(2026, 1, 1);
     EntryAttachmentsProvider.instance.attachments = [
       for (final (rank, name) in imageNames.indexed)
@@ -152,7 +155,9 @@ void main() {
 
   void useAttachments(List<(AttachmentType, String)> attachments) {
     EntryAttachmentsProvider.instance.isLoaded = true;
+    NotesProvider.instance.isLoaded = true;
     addTearDown(() => EntryAttachmentsProvider.instance.isLoaded = false);
+    addTearDown(() => NotesProvider.instance.isLoaded = false);
     final createdTime = DateTime(2026, 1, 1);
     EntryAttachmentsProvider.instance.attachments = [
       for (final (rank, (type, name)) in attachments.indexed)

@@ -16,6 +16,7 @@ import 'package:daily_notes/storage/sync_item.dart';
 import 'package:daily_notes/utils/operation_outcome.dart';
 import 'package:daily_notes/utils/generated/tag_icon_registry.dart';
 import 'package:daily_notes/models/entry.dart';
+import 'package:daily_notes/models/note.dart';
 import 'package:daily_notes/models/mood.dart';
 import 'package:daily_notes/models/mood_scale_level.dart';
 import 'package:daily_notes/models/mood_scale_preset.dart';
@@ -26,6 +27,7 @@ import 'package:daily_notes/models/template.dart';
 import 'package:daily_notes/providers/entries_provider.dart';
 import 'package:daily_notes/providers/entry_attachments_provider.dart';
 import 'package:daily_notes/providers/mood_scale_provider.dart';
+import 'package:daily_notes/providers/notes_provider.dart';
 import 'package:daily_notes/providers/stats_layout_provider.dart';
 import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:daily_notes/providers/templates_provider.dart';
@@ -161,7 +163,7 @@ class AppDatabase {
     }
   }
 
-  static const schemaVersion = 7;
+  static const schemaVersion = 8;
 
   Future<void> open() async {
     _database = await openDatabase(_internalPath!,
@@ -173,6 +175,7 @@ class AppDatabase {
 
     await EntriesProvider.instance.load();
     await EntryAttachmentsProvider.instance.load();
+    await NotesProvider.instance.load();
     await TemplatesProvider.instance.load();
     await TagsProvider.instance.load();
     await MoodScaleProvider.instance.load();
@@ -433,6 +436,7 @@ CREATE TABLE $attachmentsTable (
     await _createTagTables(db);
     await _createMoodScaleLevelsTable(db);
     await _createTemplateTagTable(db);
+    await _createNotesTables(db);
   }
 
   @visibleForTesting
@@ -684,6 +688,31 @@ WHERE ${EntryFields.mood} IS NOT NULL
 ''');
       await MoodScaleDao.save(_legacyMoodScaleLevels(), executor: db);
     }
+    if (oldVersion <= 7 && !await _tableExists(db, notesTable)) {
+      await _createNotesTables(db);
+    }
+  }
+
+  Future<void> _createNotesTables(Database db) async {
+    await db.execute('''
+CREATE TABLE $notesTable (
+  ${NoteFields.id} INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  ${NoteFields.text} TEXT NOT NULL,
+  ${NoteFields.timeCreate} DATETIME NOT NULL DEFAULT (DATETIME('now')),
+  ${NoteFields.timeModified} DATETIME NOT NULL DEFAULT (DATETIME('now'))
+)
+''');
+    await db.execute('''
+CREATE TABLE $noteAttachmentsTable (
+  ${EntryAttachmentFields.id} INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  $noteAttachmentNoteId INTEGER NOT NULL,
+  ${EntryAttachmentFields.type} TEXT NOT NULL,
+  ${EntryAttachmentFields.filePath} TEXT NOT NULL,
+  ${EntryAttachmentFields.rank} INTEGER NOT NULL,
+  ${EntryAttachmentFields.timeCreate} DATETIME NOT NULL DEFAULT (DATETIME('now')),
+  FOREIGN KEY ($noteAttachmentNoteId) REFERENCES $notesTable (id)
+)
+''');
   }
 
   List<MoodScaleLevel> _legacyMoodScaleLevels() => [

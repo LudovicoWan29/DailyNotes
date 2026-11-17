@@ -8,6 +8,7 @@ import 'package:daily_notes/config_provider.dart';
 import 'package:daily_notes/database/attachment_storage.dart';
 import 'package:daily_notes/models/attachment.dart';
 import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/notes_provider.dart';
 import 'package:daily_notes/storage/external_sync.dart';
 import 'package:daily_notes/storage/external_sync_settings.dart';
 import 'package:daily_notes/storage/file_store.dart';
@@ -35,7 +36,9 @@ void main() {
     storage.overrideStores(internal, external);
     addTearDown(storage.clearStoreOverrides);
     EntryAttachmentsProvider.instance.isLoaded = true;
+    NotesProvider.instance.isLoaded = true;
     addTearDown(() => EntryAttachmentsProvider.instance.isLoaded = false);
+    addTearDown(() => NotesProvider.instance.isLoaded = false);
     EntryAttachmentsProvider.instance.attachments = [
       EntryAttachment(
           entryId: 1,

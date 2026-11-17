@@ -18,6 +18,7 @@ import 'package:daily_notes/models/tag_category.dart';
 import 'package:daily_notes/models/tag_icon_type.dart';
 import 'package:daily_notes/providers/entries_provider.dart';
 import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/notes_provider.dart';
 import 'package:daily_notes/providers/tags_provider.dart';
 import 'package:daily_notes/storage/external_sync_settings.dart';
 import 'package:daily_notes/storage/in_memory_file_store.dart';
@@ -109,6 +110,7 @@ void main() {
     database = await databaseFactory.openDatabase(inMemoryDatabasePath);
     AppDatabase.instance.database = database;
     await AppDatabase.instance.createSchema(database);
+    await NotesProvider.instance.load();
 
     imageFiles = InMemoryFileStore();
     externalImageFiles = InMemoryFileStore();

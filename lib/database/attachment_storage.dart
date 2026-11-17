@@ -20,6 +20,7 @@ import 'package:daily_notes/utils/attachment_file_name.dart';
 import 'package:flutter/foundation.dart';
 import 'package:logging/logging.dart';
 import 'package:daily_notes/providers/entry_attachments_provider.dart';
+import 'package:daily_notes/providers/notes_provider.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:pool/pool.dart';
@@ -361,7 +362,10 @@ class AttachmentStorage {
   Future<Set<String>> takenLowerCaseNames(AttachmentType type) async => {
         for (final name in await (await internalStore(type)).list())
           name.toLowerCase(),
-        for (final attachment in EntryAttachmentsProvider.instance.attachments)
+        for (final attachment in [
+          ...EntryAttachmentsProvider.instance.attachments,
+          ...NotesProvider.instance.attachments,
+        ])
           if (attachment.type == type) attachment.filePath.toLowerCase(),
       };
 
@@ -518,14 +522,19 @@ class AttachmentStorage {
 
   Map<AttachmentType, Set<String>> _referencedFileNames(String action) {
     final attachmentsProvider = EntryAttachmentsProvider.instance;
-    if (!attachmentsProvider.isLoaded) {
+    final notesProvider = NotesProvider.instance;
+    if (!attachmentsProvider.isLoaded || !notesProvider.isLoaded) {
       throw StateError(
           'Refused to $action attachments before the attachment list was loaded');
     }
+    final all = [
+      ...attachmentsProvider.attachments,
+      ...notesProvider.attachments
+    ];
     return {
       for (final type in AttachmentType.values)
         type: {
-          for (final attachment in attachmentsProvider.attachments)
+          for (final attachment in all)
             if (attachment.type == type) attachment.filePath
         },
     };
